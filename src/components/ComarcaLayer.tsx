@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { LayerGroup, GeoJSON, Popup } from 'react-leaflet';
+import { LayerGroup, GeoJSON } from 'react-leaflet';
 
 interface ComarcaProperties {
   nom: string;
@@ -57,19 +57,17 @@ export function ComarcaLayer() {
           fillColor: '#3498db',
           fillOpacity: 0.3
         })}
-      >
-        {(feature: any) => (
-          <Popup>
-            <div className="comarca-popup">
-              <h3>{feature.properties.nom}</h3>
-              <p>Código: {feature.properties.codi}</p>
-              {feature.properties.poblacio && (
-                <p>Población: {feature.properties.poblacio.toLocaleString()} habitantes</p>
-              )}
+        onEachFeature={(feature, layer) => {
+          const props = feature.properties;
+          layer.bindPopup(`
+            <div class="comarca-popup">
+              <h3>${props.nom || 'Nombre no disponible'}</h3>
+              <p><strong>Código:</strong> ${props.codi || 'No disponible'}</p>
+              ${props.poblacio ? `<p><strong>Población:</strong> ${props.poblacio.toLocaleString('es-ES')} habitantes</p>` : ''}
             </div>
-          </Popup>
-        )}
-      </GeoJSON>
+          `);
+        }}
+      />
     </LayerGroup>
   );
 } 

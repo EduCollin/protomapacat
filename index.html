@@ -83,11 +83,10 @@
               layer.bindPopup(`
                 <div style="font-family: Arial, sans-serif; min-width: 200px;">
                     <h3 style="margin: 0 0 8px 0; color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 4px;">
-                        ${props.NOMMUNI}
+                        ${props.cap_comar || 'Información no disponible'}
                     </h3>
-                    <p style="margin: 4px 0;"><strong>Comarca:</strong> ${props.NOMCOMAR || 'No disponible'}</p>
-                    <p style="margin: 4px 0;"><strong>Población:</strong> ${props.POBLACIO ? props.POBLACIO.toLocaleString('es-ES') : 'No disponible'}</p>
-                    <p style="margin: 4px 0;"><strong>Código INE:</strong> ${props.CODIMUNI || 'No disponible'}</p>
+                    <p style="margin: 4px 0;"><strong>Comarca:</strong> ${props.nom_comar || 'No disponible'}</p>
+                    <p style="margin: 4px 0;"><strong>Código comarca:</strong> ${props.comarca || 'No disponible'}</p>
                 </div>
               `);
             }
@@ -115,11 +114,11 @@
               layer.bindPopup(`
                 <div style="font-family: Arial, sans-serif; min-width: 200px;">
                     <h3 style="margin: 0 0 8px 0; color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 4px;">
-                        ${props.NOMMUNI}
+                        ${props.nom || 'Información no disponible'}
                     </h3>
-                    <p style="margin: 4px 0;"><strong>Comarca:</strong> ${props.NOMCOMAR || 'No disponible'}</p>
-                    <p style="margin: 4px 0;"><strong>Población:</strong> ${props.POBLACIO ? props.POBLACIO.toLocaleString('es-ES') : 'No disponible'}</p>
-                    <p style="margin: 4px 0;"><strong>Código INE:</strong> ${props.CODIMUNI || 'No disponible'}</p>
+                    <p style="margin: 4px 0;"><strong>Comarca:</strong> ${props.comarca_nom || 'No disponible'}</p>
+                    <p style="margin: 4px 0;"><strong>Código municipal:</strong> ${props.codi || 'No disponible'}</p>
+                    <p style="margin: 4px 0;"><strong>Código comarca:</strong> ${props.comarca_codi || 'No disponible'}</p>
                 </div>
               `);
             }
