@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  gap: 20px;
+  background-color: #f5f5f5;
+}
+
+.map-container {
+  flex: 1;
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.control-panel {
+  width: 300px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.control-group {
+  margin-bottom: 20px;
+}
+
+.control-group h3 {
+  margin: 0 0 10px 0;
+  color: #2c3e50;
+}
+
+.toggle-switch {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.toggle-switch input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.municipality-popup {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+.municipality-popup h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.municipality-popup p {
+  margin: 5px 0;
+  color: #666;
+}
+
+/* Leaflet specific styles */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+} 

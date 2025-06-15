@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mapa Municipal Catalunya</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.0/proj4.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .header {
+        background-color: #2c3e50;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+      }
+      .header h1 {
+        margin: 0;
+      }
+      .content {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+      #map {
+        width: 66.66%;
+        height: 66.66vh;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Mapa Municipal Catalunya</h1>
+    </div>
+    
+    <div class="content">
+      <div id="map"></div>
+    </div>
+
+    <script>
+      // Initialize the map
+      const map = L.map('map').setView([41.7, 1.8], 8);
+
+      // Add OpenStreetMap base layer
+      const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© OpenStreetMap contributors'
+      }).addTo(map);
+
+      // Create layer groups
+      const municipalitiesLayer = L.layerGroup().addTo(map);
+      const centroidsLayer = L.layerGroup().addTo(map);
+
+      // Style for municipalities
+      const municipalityStyle = {
+        color: "#2c3e50",
+        weight: 1.5,
+        opacity: 0.8,
+        fillOpacity: 0.1
+      };
+
+      // Load municipality boundaries
+      fetch('data/municipis-geo.json')
+        .then(response => response.json())
+        .then(data => {
+          L.geoJSON(data, {
+            style: municipalityStyle,
+            onEachFeature: function(feature, layer) {
+              const props = feature.properties;
+              layer.bindPopup(`
+                <div style="font-family: Arial, sans-serif; min-width: 200px;">
+                    <h3 style="margin: 0 0 8px 0; color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 4px;">
+                        ${props.NOMMUNI}
+                    </h3>
+                    <p style="margin: 4px 0;"><strong>Comarca:</strong> ${props.NOMCOMAR || 'No disponible'}</p>
+                    <p style="margin: 4px 0;"><strong>Población:</strong> ${props.POBLACIO ? props.POBLACIO.toLocaleString('es-ES') : 'No disponible'}</p>
+                    <p style="margin: 4px 0;"><strong>Código INE:</strong> ${props.CODIMUNI || 'No disponible'}</p>
+                </div>
+              `);
+            }
+          }).addTo(municipalitiesLayer);
+        })
+        .catch(error => console.error('Error loading municipalities:', error));
+
+      // Load municipality centroids
+      fetch('data/municipis_geo.json')
+        .then(response => response.json())
+        .then(data => {
+          L.geoJSON(data, {
+            pointToLayer: function(feature, latlng) {
+              return L.circleMarker(latlng, {
+                radius: 4,
+                fillColor: "#666666",
+                color: "#333333",
+                weight: 1,
+                opacity: 1,
+                fillOpacity: 0.8
+              });
+            },
+            onEachFeature: function(feature, layer) {
+              const props = feature.properties;
+              layer.bindPopup(`
+                <div style="font-family: Arial, sans-serif; min-width: 200px;">
+                    <h3 style="margin: 0 0 8px 0; color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 4px;">
+                        ${props.NOMMUNI}
+                    </h3>
+                    <p style="margin: 4px 0;"><strong>Comarca:</strong> ${props.NOMCOMAR || 'No disponible'}</p>
+                    <p style="margin: 4px 0;"><strong>Población:</strong> ${props.POBLACIO ? props.POBLACIO.toLocaleString('es-ES') : 'No disponible'}</p>
+                    <p style="margin: 4px 0;"><strong>Código INE:</strong> ${props.CODIMUNI || 'No disponible'}</p>
+                </div>
+              `);
+            }
+          }).addTo(centroidsLayer);
+        })
+        .catch(error => console.error('Error loading centroids:', error));
+
+      // Add layer control
+      const baseMaps = {
+        "Mapa Base": osm
+      };
+
+      const overlayMaps = {
+        "Límites Municipales": municipalitiesLayer,
+        "Centros Municipales": centroidsLayer
+      };
+
+      L.control.layers(baseMaps, overlayMaps, {
+        position: 'topleft',
+        collapsed: false
+      }).addTo(map);
+
+      // Add scale control
+      L.control.scale({
+        metric: true,
+        imperial: false,
+        position: 'bottomleft'
+      }).addTo(map);
+
+      // Add attribution control
+      map.attributionControl.setPrefix('Datos: ICGC & OpenStreetMap | Visualización: Leaflet');
+    </script>
+  </body>
+</html> 
