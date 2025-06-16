@@ -1,0 +1,3466 @@
+{
+  "poblacio_municipis_2024": {
+    "Abella de la Conca": {
+      "poblacio": 158,
+      "comarca": "Pallars Jussà"
+    },
+    "Abrera": {
+      "poblacio": 13014,
+      "comarca": "Baix Llobregat"
+    },
+    "Agramunt": {
+      "poblacio": 5629,
+      "comarca": "Urgell"
+    },
+    "Aguilar de Segarra": {
+      "poblacio": 291,
+      "comarca": "Bages"
+    },
+    "Agullana": {
+      "poblacio": 909,
+      "comarca": "Alt Empordà"
+    },
+    "Aiguafreda": {
+      "poblacio": 2576,
+      "comarca": "Vallès Oriental"
+    },
+    "Aiguamúrcia": {
+      "poblacio": 957,
+      "comarca": "Alt Camp"
+    },
+    "Aiguaviva": {
+      "poblacio": 802,
+      "comarca": "Gironès"
+    },
+    "Aitona": {
+      "poblacio": 2603,
+      "comarca": "Segrià"
+    },
+    "Albanyà": {
+      "poblacio": 168,
+      "comarca": "Alt Empordà"
+    },
+    "Albatàrrec": {
+      "poblacio": 2251,
+      "comarca": "Segrià"
+    },
+    "Albesa": {
+      "poblacio": 1584,
+      "comarca": "Noguera"
+    },
+    "Albinyana": {
+      "poblacio": 2677,
+      "comarca": "Baix Penedès"
+    },
+    "Albons": {
+      "poblacio": 830,
+      "comarca": "Baix Empordà"
+    },
+    "Alcanar": {
+      "poblacio": 9943,
+      "comarca": "Montsià"
+    },
+    "Alcanó": {
+      "poblacio": 239,
+      "comarca": "Segrià"
+    },
+    "Alcarràs": {
+      "poblacio": 10018,
+      "comarca": "Segrià"
+    },
+    "Alcoletge": {
+      "poblacio": 3594,
+      "comarca": "Segrià"
+    },
+    "Alcover": {
+      "poblacio": 5348,
+      "comarca": "Alt Camp"
+    },
+    "Aldover": {
+      "poblacio": 880,
+      "comarca": "Baix Ebre"
+    },
+    "Alella": {
+      "poblacio": 10217,
+      "comarca": "Maresme"
+    },
+    "Alfara de Carles": {
+      "poblacio": 361,
+      "comarca": "Baix Ebre"
+    },
+    "Alfarràs": {
+      "poblacio": 2778,
+      "comarca": "Segrià"
+    },
+    "Alforja": {
+      "poblacio": 2019,
+      "comarca": "Baix Camp"
+    },
+    "Alfés": {
+      "poblacio": 281,
+      "comarca": "Segrià"
+    },
+    "Algerri": {
+      "poblacio": 424,
+      "comarca": "Noguera"
+    },
+    "Alguaire": {
+      "poblacio": 2986,
+      "comarca": "Segrià"
+    },
+    "Alins": {
+      "poblacio": 275,
+      "comarca": "Pallars Sobirà"
+    },
+    "Alió": {
+      "poblacio": 504,
+      "comarca": "Alt Camp"
+    },
+    "Almacelles": {
+      "poblacio": 6896,
+      "comarca": "Segrià"
+    },
+    "Almatret": {
+      "poblacio": 305,
+      "comarca": "Segrià"
+    },
+    "Almenar": {
+      "poblacio": 3338,
+      "comarca": "Segrià"
+    },
+    "Almoster": {
+      "poblacio": 1338,
+      "comarca": "Baix Camp"
+    },
+    "Alp": {
+      "poblacio": 1728,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Alpens": {
+      "poblacio": 270,
+      "comarca": "Lluçanès"
+    },
+    "Alpicat": {
+      "poblacio": 6387,
+      "comarca": "Segrià"
+    },
+    "Alt Àneu": {
+      "poblacio": 455,
+      "comarca": "Pallars Sobirà"
+    },
+    "Altafulla": {
+      "poblacio": 5838,
+      "comarca": "Tarragonès"
+    },
+    "Alàs i Cerc": {
+      "poblacio": 322,
+      "comarca": "Alt Urgell"
+    },
+    "Alòs de Balaguer": {
+      "poblacio": 120,
+      "comarca": "Noguera"
+    },
+    "Amer": {
+      "poblacio": 2415,
+      "comarca": "Selva"
+    },
+    "Amposta": {
+      "poblacio": 22637,
+      "comarca": "Montsià"
+    },
+    "Anglesola": {
+      "poblacio": 1367,
+      "comarca": "Urgell"
+    },
+    "Anglès": {
+      "poblacio": 5969,
+      "comarca": "Selva"
+    },
+    "Arbeca": {
+      "poblacio": 2081,
+      "comarca": "Garrigues"
+    },
+    "Arbolí": {
+      "poblacio": 129,
+      "comarca": "Baix Camp"
+    },
+    "Arbúcies": {
+      "poblacio": 6574,
+      "comarca": "Selva"
+    },
+    "Arenys de Mar": {
+      "poblacio": 16642,
+      "comarca": "Maresme"
+    },
+    "Arenys de Munt": {
+      "poblacio": 9458,
+      "comarca": "Maresme"
+    },
+    "Argelaguer": {
+      "poblacio": 452,
+      "comarca": "Garrotxa"
+    },
+    "Argentona": {
+      "poblacio": 12844,
+      "comarca": "Maresme"
+    },
+    "Argençola": {
+      "poblacio": 237,
+      "comarca": "Anoia"
+    },
+    "Arnes": {
+      "poblacio": 463,
+      "comarca": "Terra Alta"
+    },
+    "Arres": {
+      "poblacio": 64,
+      "comarca": "Vall d'Aran"
+    },
+    "Arsèguel": {
+      "poblacio": 78,
+      "comarca": "Alt Urgell"
+    },
+    "Artesa de Lleida": {
+      "poblacio": 1539,
+      "comarca": "Segrià"
+    },
+    "Artesa de Segre": {
+      "poblacio": 3485,
+      "comarca": "Noguera"
+    },
+    "Artés": {
+      "poblacio": 6084,
+      "comarca": "Bages"
+    },
+    "Ascó": {
+      "poblacio": 1608,
+      "comarca": "Ribera d'Ebre"
+    },
+    "Aspa": {
+      "poblacio": 220,
+      "comarca": "Segrià"
+    },
+    "Avinyonet de Puigventós": {
+      "poblacio": 1684,
+      "comarca": "Alt Empordà"
+    },
+    "Avinyonet del Penedès": {
+      "poblacio": 1744,
+      "comarca": "Alt Penedès"
+    },
+    "Avinyó": {
+      "poblacio": 2313,
+      "comarca": "Bages"
+    },
+    "Avià": {
+      "poblacio": 2243,
+      "comarca": "Berguedà"
+    },
+    "Badalona": {
+      "poblacio": 227083,
+      "comarca": "Barcelonès"
+    },
+    "Badia del Vallès": {
+      "poblacio": 13118,
+      "comarca": "Vallès Occidental"
+    },
+    "Bagà": {
+      "poblacio": 2182,
+      "comarca": "Berguedà"
+    },
+    "Baix Pallars": {
+      "poblacio": 340,
+      "comarca": "Pallars Sobirà"
+    },
+    "Balaguer": {
+      "poblacio": 17705,
+      "comarca": "Noguera"
+    },
+    "Balenyà": {
+      "poblacio": 4036,
+      "comarca": "Osona"
+    },
+    "Balsareny": {
+      "poblacio": 3328,
+      "comarca": "Bages"
+    },
+    "Banyeres del Penedès": {
+      "poblacio": 3347,
+      "comarca": "Baix Penedès"
+    },
+    "Banyoles": {
+      "poblacio": 20599,
+      "comarca": "Pla de l'Estany"
+    },
+    "Barbens": {
+      "poblacio": 926,
+      "comarca": "Pla d'Urgell"
+    },
+    "Barberà de la Conca": {
+      "poblacio": 471,
+      "comarca": "Conca de Barberà"
+    },
+    "Barberà del Vallès": {
+      "poblacio": 33575,
+      "comarca": "Vallès Occidental"
+    },
+    "Barcelona": {
+      "poblacio": 1702547,
+      "comarca": "Barcelonès"
+    },
+    "Bassella": {
+      "poblacio": 210,
+      "comarca": "Alt Urgell"
+    },
+    "Batea": {
+      "poblacio": 1877,
+      "comarca": "Terra Alta"
+    },
+    "Bausen": {
+      "poblacio": 60,
+      "comarca": "Vall d'Aran"
+    },
+    "Begues": {
+      "poblacio": 7462,
+      "comarca": "Baix Llobregat"
+    },
+    "Begur": {
+      "poblacio": 4245,
+      "comarca": "Baix Empordà"
+    },
+    "Belianes": {
+      "poblacio": 517,
+      "comarca": "Urgell"
+    },
+    "Bell-lloc d'Urgell": {
+      "poblacio": 2359,
+      "comarca": "Pla d'Urgell"
+    },
+    "Bellaguarda": {
+      "poblacio": 288,
+      "comarca": "Garrigues"
+    },
+    "Bellcaire d'Empordà": {
+      "poblacio": 737,
+      "comarca": "Baix Empordà"
+    },
+    "Bellcaire d'Urgell": {
+      "poblacio": 1228,
+      "comarca": "Noguera"
+    },
+    "Bellmunt d'Urgell": {
+      "poblacio": 182,
+      "comarca": "Noguera"
+    },
+    "Bellmunt del Priorat": {
+      "poblacio": 298,
+      "comarca": "Priorat"
+    },
+    "Bellprat": {
+      "poblacio": 69,
+      "comarca": "Anoia"
+    },
+    "Bellpuig": {
+      "poblacio": 5276,
+      "comarca": "Urgell"
+    },
+    "Bellvei": {
+      "poblacio": 2417,
+      "comarca": "Baix Penedès"
+    },
+    "Bellver de Cerdanya": {
+      "poblacio": 2260,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Bellvís": {
+      "poblacio": 2269,
+      "comarca": "Pla d'Urgell"
+    },
+    "Benavent de Segrià": {
+      "poblacio": 1578,
+      "comarca": "Segrià"
+    },
+    "Benifallet": {
+      "poblacio": 718,
+      "comarca": "Baix Ebre"
+    },
+    "Benissanet": {
+      "poblacio": 1186,
+      "comarca": "Ribera d'Ebre"
+    },
+    "Berga": {
+      "poblacio": 17160,
+      "comarca": "Berguedà"
+    },
+    "Besalú": {
+      "poblacio": 2583,
+      "comarca": "Garrotxa"
+    },
+    "Bescanó": {
+      "poblacio": 5141,
+      "comarca": "Gironès"
+    },
+    "Beuda": {
+      "poblacio": 204,
+      "comarca": "Garrotxa"
+    },
+    "Bigues i Riells del Fai": {
+      "poblacio": 10036,
+      "comarca": "Vallès Oriental"
+    },
+    "Biosca": {
+      "poblacio": 176,
+      "comarca": "Solsonès"
+    },
+    "Biure": {
+      "poblacio": 223,
+      "comarca": "Alt Empordà"
+    },
+    "Blancafort": {
+      "poblacio": 393,
+      "comarca": "Conca de Barberà"
+    },
+    "Blanes": {
+      "poblacio": 42198,
+      "comarca": "Selva"
+    },
+    "Boadella i les Escaules": {
+      "poblacio": 260,
+      "comarca": "Alt Empordà"
+    },
+    "Bolvir": {
+      "poblacio": 497,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Bonastre": {
+      "poblacio": 760,
+      "comarca": "Baix Penedès"
+    },
+    "Bordils": {
+      "poblacio": 1804,
+      "comarca": "Gironès"
+    },
+    "Borrassà": {
+      "poblacio": 773,
+      "comarca": "Alt Empordà"
+    },
+    "Borredà": {
+      "poblacio": 419,
+      "comarca": "Berguedà"
+    },
+    "Bossòst": {
+      "poblacio": 1141,
+      "comarca": "Vall d'Aran"
+    },
+    "Bot": {
+      "poblacio": 554,
+      "comarca": "Terra Alta"
+    },
+    "Botarell": {
+      "poblacio": 1174,
+      "comarca": "Baix Camp"
+    },
+    "Bovera": {
+      "poblacio": 247,
+      "comarca": "Garrigues"
+    },
+    "Breda": {
+      "poblacio": 3930,
+      "comarca": "Selva"
+    },
+    "Brunyola i Sant Martí Sapresa": {
+      "poblacio": 395,
+      "comarca": "Selva"
+    },
+    "Bràfim": {
+      "poblacio": 696,
+      "comarca": "Alt Camp"
+    },
+    "Bàscara": {
+      "poblacio": 1057,
+      "comarca": "Alt Empordà"
+    },
+    "Cabanabona": {
+      "poblacio": 65,
+      "comarca": "Noguera"
+    },
+    "Cabanelles": {
+      "poblacio": 281,
+      "comarca": "Alt Empordà"
+    },
+    "Cabanes": {
+      "poblacio": 978,
+      "comarca": "Alt Empordà"
+    },
+    "Cabra del Camp": {
+      "poblacio": 1321,
+      "comarca": "Alt Camp"
+    },
+    "Cabrera d'Anoia": {
+      "poblacio": 1709,
+      "comarca": "Anoia"
+    },
+    "Cabrera de Mar": {
+      "poblacio": 5018,
+      "comarca": "Maresme"
+    },
+    "Cabrils": {
+      "poblacio": 7767,
+      "comarca": "Maresme"
+    },
+    "Cabó": {
+      "poblacio": 89,
+      "comarca": "Alt Urgell"
+    },
+    "Cadaqués": {
+      "poblacio": 2918,
+      "comarca": "Alt Empordà"
+    },
+    "Calaf": {
+      "poblacio": 3618,
+      "comarca": "Anoia"
+    },
+    "Calafell": {
+      "poblacio": 31828,
+      "comarca": "Baix Penedès"
+    },
+    "Calders": {
+      "poblacio": 1114,
+      "comarca": "Moianès"
+    },
+    "Caldes d'Estrac": {
+      "poblacio": 3259,
+      "comarca": "Maresme"
+    },
+    "Caldes de Malavella": {
+      "poblacio": 8509,
+      "comarca": "Selva"
+    },
+    "Caldes de Montbui": {
+      "poblacio": 18336,
+      "comarca": "Vallès Oriental"
+    },
+    "Calella": {
+      "poblacio": 20369,
+      "comarca": "Maresme"
+    },
+    "Calldetenes": {
+      "poblacio": 2690,
+      "comarca": "Osona"
+    },
+    "Callús": {
+      "poblacio": 2145,
+      "comarca": "Bages"
+    },
+    "Calonge de Segarra": {
+      "poblacio": 174,
+      "comarca": "Anoia"
+    },
+    "Calonge i Sant Antoni": {
+      "poblacio": 12316,
+      "comarca": "Baix Empordà"
+    },
+    "Camarasa": {
+      "poblacio": 805,
+      "comarca": "Noguera"
+    },
+    "Camarles": {
+      "poblacio": 3392,
+      "comarca": "Baix Ebre"
+    },
+    "Cambrils": {
+      "poblacio": 36849,
+      "comarca": "Baix Camp"
+    },
+    "Campdevànol": {
+      "poblacio": 3262,
+      "comarca": "Ripollès"
+    },
+    "Campelles": {
+      "poblacio": 165,
+      "comarca": "Ripollès"
+    },
+    "Campins": {
+      "poblacio": 606,
+      "comarca": "Vallès Oriental"
+    },
+    "Campllong": {
+      "poblacio": 544,
+      "comarca": "Gironès"
+    },
+    "Camprodon": {
+      "poblacio": 2527,
+      "comarca": "Ripollès"
+    },
+    "Camós": {
+      "poblacio": 711,
+      "comarca": "Pla de l'Estany"
+    },
+    "Canejan": {
+      "poblacio": 101,
+      "comarca": "Vall d'Aran"
+    },
+    "Canet d'Adri": {
+      "poblacio": 744,
+      "comarca": "Gironès"
+    },
+    "Canet de Mar": {
+      "poblacio": 15140,
+      "comarca": "Maresme"
+    },
+    "Canovelles": {
+      "poblacio": 17312,
+      "comarca": "Vallès Oriental"
+    },
+    "Cantallops": {
+      "poblacio": 346,
+      "comarca": "Alt Empordà"
+    },
+    "Canyelles": {
+      "poblacio": 5367,
+      "comarca": "Garraf"
+    },
+    "Capafonts": {
+      "poblacio": 106,
+      "comarca": "Baix Camp"
+    },
+    "Capellades": {
+      "poblacio": 5567,
+      "comarca": "Anoia"
+    },
+    "Capolat": {
+      "poblacio": 92,
+      "comarca": "Berguedà"
+    },
+    "Capçanes": {
+      "poblacio": 428,
+      "comarca": "Priorat"
+    },
+    "Cardedeu": {
+      "poblacio": 19064,
+      "comarca": "Vallès Oriental"
+    },
+    "Cardona": {
+      "poblacio": 4574,
+      "comarca": "Bages"
+    },
+    "Carme": {
+      "poblacio": 814,
+      "comarca": "Anoia"
+    },
+    "Caseres": {
+      "poblacio": 240,
+      "comarca": "Terra Alta"
+    },
+    "Casserres": {
+      "poblacio": 1676,
+      "comarca": "Berguedà"
+    },
+    "Cassà de la Selva": {
+      "poblacio": 10943,
+      "comarca": "Gironès"
+    },
+    "Castell d'Aro, Platja d'Aro i s'Agaró": {
+      "poblacio": 12981,
+      "comarca": "Baix Empordà"
+    },
+    "Castell de Mur": {
+      "poblacio": 170,
+      "comarca": "Pallars Jussà"
+    },
+    "Castell de l'Areny": {
+      "poblacio": 69,
+      "comarca": "Berguedà"
+    },
+    "Castellar de la Ribera": {
+      "poblacio": 144,
+      "comarca": "Solsonès"
+    },
+    "Castellar de n'Hug": {
+      "poblacio": 164,
+      "comarca": "Berguedà"
+    },
+    "Castellar del Riu": {
+      "poblacio": 163,
+      "comarca": "Berguedà"
+    },
+    "Castellar del Vallès": {
+      "poblacio": 25322,
+      "comarca": "Vallès Occidental"
+    },
+    "Castellbell i el Vilar": {
+      "poblacio": 4138,
+      "comarca": "Bages"
+    },
+    "Castellbisbal": {
+      "poblacio": 12972,
+      "comarca": "Vallès Occidental"
+    },
+    "Castellcir": {
+      "poblacio": 784,
+      "comarca": "Moianès"
+    },
+    "Castelldans": {
+      "poblacio": 891,
+      "comarca": "Garrigues"
+    },
+    "Castelldefels": {
+      "poblacio": 69450,
+      "comarca": "Baix Llobregat"
+    },
+    "Castellet i la Gornal": {
+      "poblacio": 2674,
+      "comarca": "Alt Penedès"
+    },
+    "Castellfollit de Riubregós": {
+      "poblacio": 151,
+      "comarca": "Anoia"
+    },
+    "Castellfollit de la Roca": {
+      "poblacio": 957,
+      "comarca": "Garrotxa"
+    },
+    "Castellfollit del Boix": {
+      "poblacio": 459,
+      "comarca": "Bages"
+    },
+    "Castellgalí": {
+      "poblacio": 2347,
+      "comarca": "Bages"
+    },
+    "Castellnou de Bages": {
+      "poblacio": 1430,
+      "comarca": "Bages"
+    },
+    "Castellnou de Seana": {
+      "poblacio": 723,
+      "comarca": "Pla d'Urgell"
+    },
+    "Castellolí": {
+      "poblacio": 658,
+      "comarca": "Anoia"
+    },
+    "Castellserà": {
+      "poblacio": 993,
+      "comarca": "Urgell"
+    },
+    "Castellterçol": {
+      "poblacio": 2773,
+      "comarca": "Moianès"
+    },
+    "Castellvell del Camp": {
+      "poblacio": 2995,
+      "comarca": "Baix Camp"
+    },
+    "Castellví de Rosanes": {
+      "poblacio": 2106,
+      "comarca": "Baix Llobregat"
+    },
+    "Castellví de la Marca": {
+      "poblacio": 1716,
+      "comarca": "Alt Penedès"
+    },
+    "Castelló d'Empúries": {
+      "poblacio": 12163,
+      "comarca": "Alt Empordà"
+    },
+    "Castelló de Farfanya": {
+      "poblacio": 544,
+      "comarca": "Noguera"
+    },
+    "Cava": {
+      "poblacio": 39,
+      "comarca": "Alt Urgell"
+    },
+    "Celrà": {
+      "poblacio": 5561,
+      "comarca": "Gironès"
+    },
+    "Centelles": {
+      "poblacio": 7775,
+      "comarca": "Osona"
+    },
+    "Cercs": {
+      "poblacio": 1193,
+      "comarca": "Berguedà"
+    },
+    "Cerdanyola del Vallès": {
+      "poblacio": 58100,
+      "comarca": "Vallès Occidental"
+    },
+    "Cervelló": {
+      "poblacio": 9647,
+      "comarca": "Baix Llobregat"
+    },
+    "Cervera": {
+      "poblacio": 9533,
+      "comarca": "Segarra"
+    },
+    "Cervià de Ter": {
+      "poblacio": 997,
+      "comarca": "Gironès"
+    },
+    "Cervià de les Garrigues": {
+      "poblacio": 641,
+      "comarca": "Garrigues"
+    },
+    "Cistella": {
+      "poblacio": 294,
+      "comarca": "Alt Empordà"
+    },
+    "Ciutadilla": {
+      "poblacio": 194,
+      "comarca": "Urgell"
+    },
+    "Clariana de Cardener": {
+      "poblacio": 161,
+      "comarca": "Solsonès"
+    },
+    "Colera": {
+      "poblacio": 491,
+      "comarca": "Alt Empordà"
+    },
+    "Coll de Nargó": {
+      "poblacio": 587,
+      "comarca": "Alt Urgell"
+    },
+    "Collbató": {
+      "poblacio": 4849,
+      "comarca": "Baix Llobregat"
+    },
+    "Colldejou": {
+      "poblacio": 160,
+      "comarca": "Baix Camp"
+    },
+    "Collsuspina": {
+      "poblacio": 389,
+      "comarca": "Moianès"
+    },
+    "Colomers": {
+      "poblacio": 205,
+      "comarca": "Baix Empordà"
+    },
+    "Conca de Dalt": {
+      "poblacio": 434,
+      "comarca": "Pallars Jussà"
+    },
+    "Conesa": {
+      "poblacio": 113,
+      "comarca": "Conca de Barberà"
+    },
+    "Constantí": {
+      "poblacio": 6888,
+      "comarca": "Tarragonès"
+    },
+    "Copons": {
+      "poblacio": 351,
+      "comarca": "Anoia"
+    },
+    "Corbera d'Ebre": {
+      "poblacio": 1019,
+      "comarca": "Terra Alta"
+    },
+    "Corbera de Llobregat": {
+      "poblacio": 15726,
+      "comarca": "Baix Llobregat"
+    },
+    "Corbins": {
+      "poblacio": 1502,
+      "comarca": "Segrià"
+    },
+    "Cornellà de Llobregat": {
+      "poblacio": 91589,
+      "comarca": "Baix Llobregat"
+    },
+    "Cornellà del Terri": {
+      "poblacio": 2390,
+      "comarca": "Pla de l'Estany"
+    },
+    "Cornudella de Montsant": {
+      "poblacio": 1023,
+      "comarca": "Priorat"
+    },
+    "Corçà": {
+      "poblacio": 1282,
+      "comarca": "Baix Empordà"
+    },
+    "Creixell": {
+      "poblacio": 4190,
+      "comarca": "Tarragonès"
+    },
+    "Crespià": {
+      "poblacio": 250,
+      "comarca": "Pla de l'Estany"
+    },
+    "Cruïlles, Monells i Sant Sadurní de l'Heura": {
+      "poblacio": 1329,
+      "comarca": "Baix Empordà"
+    },
+    "Cubelles": {
+      "poblacio": 17243,
+      "comarca": "Garraf"
+    },
+    "Cubells": {
+      "poblacio": 343,
+      "comarca": "Noguera"
+    },
+    "Cunit": {
+      "poblacio": 15804,
+      "comarca": "Baix Penedès"
+    },
+    "Cànoves i Samalús": {
+      "poblacio": 3315,
+      "comarca": "Vallès Oriental"
+    },
+    "Darnius": {
+      "poblacio": 548,
+      "comarca": "Alt Empordà"
+    },
+    "Das": {
+      "poblacio": 270,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Deltebre": {
+      "poblacio": 11951,
+      "comarca": "Baix Ebre"
+    },
+    "Dosrius": {
+      "poblacio": 6142,
+      "comarca": "Maresme"
+    },
+    "Duesaigües": {
+      "poblacio": 222,
+      "comarca": "Baix Camp"
+    },
+    "Esparreguera": {
+      "poblacio": 22550,
+      "comarca": "Baix Llobregat"
+    },
+    "Espinelves": {
+      "poblacio": 254,
+      "comarca": "Osona"
+    },
+    "Esplugues de Llobregat": {
+      "poblacio": 47613,
+      "comarca": "Baix Llobregat"
+    },
+    "Espolla": {
+      "poblacio": 412,
+      "comarca": "Alt Empordà"
+    },
+    "Esponellà": {
+      "poblacio": 438,
+      "comarca": "Pla de l'Estany"
+    },
+    "Espot": {
+      "poblacio": 379,
+      "comarca": "Pallars Sobirà"
+    },
+    "Estamariu": {
+      "poblacio": 132,
+      "comarca": "Alt Urgell"
+    },
+    "Estaràs": {
+      "poblacio": 162,
+      "comarca": "Segarra"
+    },
+    "Esterri d'Àneu": {
+      "poblacio": 921,
+      "comarca": "Pallars Sobirà"
+    },
+    "Esterri de Cardós": {
+      "poblacio": 63,
+      "comarca": "Pallars Sobirà"
+    },
+    "Falset": {
+      "poblacio": 2856,
+      "comarca": "Priorat"
+    },
+    "Farrera": {
+      "poblacio": 127,
+      "comarca": "Pallars Sobirà"
+    },
+    "Figueres": {
+      "poblacio": 48875,
+      "comarca": "Alt Empordà"
+    },
+    "Figuerola del Camp": {
+      "poblacio": 345,
+      "comarca": "Alt Camp"
+    },
+    "Flaçà": {
+      "poblacio": 1145,
+      "comarca": "Gironès"
+    },
+    "Flix": {
+      "poblacio": 3324,
+      "comarca": "Ribera d'Ebre"
+    },
+    "Fogars de Montclús": {
+      "poblacio": 502,
+      "comarca": "Vallès Oriental"
+    },
+    "Fogars de la Selva": {
+      "poblacio": 1680,
+      "comarca": "Selva"
+    },
+    "Foixà": {
+      "poblacio": 292,
+      "comarca": "Baix Empordà"
+    },
+    "Folgueroles": {
+      "poblacio": 2263,
+      "comarca": "Osona"
+    },
+    "Fondarella": {
+      "poblacio": 805,
+      "comarca": "Pla d'Urgell"
+    },
+    "Fonollosa": {
+      "poblacio": 1585,
+      "comarca": "Bages"
+    },
+    "Font-rubí": {
+      "poblacio": 1446,
+      "comarca": "Alt Penedès"
+    },
+    "Fontanals de Cerdanya": {
+      "poblacio": 531,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Fontanilles": {
+      "poblacio": 168,
+      "comarca": "Baix Empordà"
+    },
+    "Fontcoberta": {
+      "poblacio": 1503,
+      "comarca": "Pla de l'Estany"
+    },
+    "Foradada": {
+      "poblacio": 195,
+      "comarca": "Noguera"
+    },
+    "Fornells de la Selva": {
+      "poblacio": 2781,
+      "comarca": "Gironès"
+    },
+    "Fortià": {
+      "poblacio": 801,
+      "comarca": "Alt Empordà"
+    },
+    "Forès": {
+      "poblacio": 40,
+      "comarca": "Conca de Barberà"
+    },
+    "Freginals": {
+      "poblacio": 424,
+      "comarca": "Montsià"
+    },
+    "Fulleda": {
+      "poblacio": 91,
+      "comarca": "Garrigues"
+    },
+    "Fígols": {
+      "poblacio": 41,
+      "comarca": "Berguedà"
+    },
+    "Fígols i Alinyà": {
+      "poblacio": 243,
+      "comarca": "Alt Urgell"
+    },
+    "Gaià": {
+      "poblacio": 178,
+      "comarca": "Bages"
+    },
+    "Gallifa": {
+      "poblacio": 172,
+      "comarca": "Vallès Occidental"
+    },
+    "Gandesa": {
+      "poblacio": 3166,
+      "comarca": "Terra Alta"
+    },
+    "Garcia": {
+      "poblacio": 543,
+      "comarca": "Ribera d'Ebre"
+    },
+    "Garrigoles": {
+      "poblacio": 185,
+      "comarca": "Baix Empordà"
+    },
+    "Garriguella": {
+      "poblacio": 967,
+      "comarca": "Alt Empordà"
+    },
+    "Garrigàs": {
+      "poblacio": 472,
+      "comarca": "Alt Empordà"
+    },
+    "Gavet de la Conca": {
+      "poblacio": 259,
+      "comarca": "Pallars Jussà"
+    },
+    "Gavà": {
+      "poblacio": 48007,
+      "comarca": "Baix Llobregat"
+    },
+    "Gelida": {
+      "poblacio": 8098,
+      "comarca": "Alt Penedès"
+    },
+    "Ger": {
+      "poblacio": 494,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Gimenells i el Pla de la Font": {
+      "poblacio": 1097,
+      "comarca": "Segrià"
+    },
+    "Ginestar": {
+      "poblacio": 794,
+      "comarca": "Ribera d'Ebre"
+    },
+    "Girona": {
+      "poblacio": 107032,
+      "comarca": "Gironès"
+    },
+    "Gironella": {
+      "poblacio": 5055,
+      "comarca": "Berguedà"
+    },
+    "Gisclareny": {
+      "poblacio": 30,
+      "comarca": "Berguedà"
+    },
+    "Godall": {
+      "poblacio": 612,
+      "comarca": "Montsià"
+    },
+    "Golmés": {
+      "poblacio": 1916,
+      "comarca": "Pla d'Urgell"
+    },
+    "Gombrèn": {
+      "poblacio": 196,
+      "comarca": "Ripollès"
+    },
+    "Granera": {
+      "poblacio": 84,
+      "comarca": "Moianès"
+    },
+    "Granollers": {
+      "poblacio": 64181,
+      "comarca": "Vallès Oriental"
+    },
+    "Granyanella": {
+      "poblacio": 140,
+      "comarca": "Segarra"
+    },
+    "Granyena de Segarra": {
+      "poblacio": 145,
+      "comarca": "Segarra"
+    },
+    "Granyena de les Garrigues": {
+      "poblacio": 163,
+      "comarca": "Garrigues"
+    },
+    "Gratallops": {
+      "poblacio": 229,
+      "comarca": "Priorat"
+    },
+    "Gualba": {
+      "poblacio": 1738,
+      "comarca": "Vallès Oriental"
+    },
+    "Gualta": {
+      "poblacio": 419,
+      "comarca": "Baix Empordà"
+    },
+    "Guardiola de Berguedà": {
+      "poblacio": 953,
+      "comarca": "Berguedà"
+    },
+    "Guils de Cerdanya": {
+      "poblacio": 566,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Guimerà": {
+      "poblacio": 246,
+      "comarca": "Urgell"
+    },
+    "Guissona": {
+      "poblacio": 7635,
+      "comarca": "Segarra"
+    },
+    "Guixers": {
+      "poblacio": 134,
+      "comarca": "Solsonès"
+    },
+    "Gurb": {
+      "poblacio": 2712,
+      "comarca": "Osona"
+    },
+    "Gósol": {
+      "poblacio": 215,
+      "comarca": "Berguedà"
+    },
+    "Horta de Sant Joan": {
+      "poblacio": 1157,
+      "comarca": "Terra Alta"
+    },
+    "Hostalric": {
+      "poblacio": 4446,
+      "comarca": "Selva"
+    },
+    "Igualada": {
+      "poblacio": 41466,
+      "comarca": "Anoia"
+    },
+    "Isona i Conca Dellà": {
+      "poblacio": 1046,
+      "comarca": "Pallars Jussà"
+    },
+    "Isòvol": {
+      "poblacio": 330,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Ivars d'Urgell": {
+      "poblacio": 1590,
+      "comarca": "Pla d'Urgell"
+    },
+    "Ivars de Noguera": {
+      "poblacio": 318,
+      "comarca": "Noguera"
+    },
+    "Ivorra": {
+      "poblacio": 100,
+      "comarca": "Segarra"
+    },
+    "Jafre": {
+      "poblacio": 387,
+      "comarca": "Baix Empordà"
+    },
+    "Jorba": {
+      "poblacio": 827,
+      "comarca": "Anoia"
+    },
+    "Josa i Tuixén": {
+      "poblacio": 122,
+      "comarca": "Alt Urgell"
+    },
+    "Juià": {
+      "poblacio": 342,
+      "comarca": "Gironès"
+    },
+    "Juncosa": {
+      "poblacio": 390,
+      "comarca": "Garrigues"
+    },
+    "Juneda": {
+      "poblacio": 3473,
+      "comarca": "Garrigues"
+    },
+    "Les": {
+      "poblacio": 1013,
+      "comarca": "Vall d'Aran"
+    },
+    "Linyola": {
+      "poblacio": 2749,
+      "comarca": "Pla d'Urgell"
+    },
+    "Lladorre": {
+      "poblacio": 254,
+      "comarca": "Pallars Sobirà"
+    },
+    "Lladurs": {
+      "poblacio": 185,
+      "comarca": "Solsonès"
+    },
+    "Llagostera": {
+      "poblacio": 9508,
+      "comarca": "Gironès"
+    },
+    "Llambilles": {
+      "poblacio": 730,
+      "comarca": "Gironès"
+    },
+    "Llanars": {
+      "poblacio": 515,
+      "comarca": "Ripollès"
+    },
+    "Llançà": {
+      "poblacio": 4943,
+      "comarca": "Alt Empordà"
+    },
+    "Llardecans": {
+      "poblacio": 428,
+      "comarca": "Segrià"
+    },
+    "Llavorsí": {
+      "poblacio": 336,
+      "comarca": "Pallars Sobirà"
+    },
+    "Lleida": {
+      "poblacio": 144739,
+      "comarca": "Segrià"
+    },
+    "Llers": {
+      "poblacio": 1248,
+      "comarca": "Alt Empordà"
+    },
+    "Lles de Cerdanya": {
+      "poblacio": 285,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Llimiana": {
+      "poblacio": 131,
+      "comarca": "Pallars Jussà"
+    },
+    "Llinars del Vallès": {
+      "poblacio": 10740,
+      "comarca": "Vallès Oriental"
+    },
+    "Lliçà d'Amunt": {
+      "poblacio": 16253,
+      "comarca": "Vallès Oriental"
+    },
+    "Lliçà de Vall": {
+      "poblacio": 6861,
+      "comarca": "Vallès Oriental"
+    },
+    "Llobera": {
+      "poblacio": 209,
+      "comarca": "Solsonès"
+    },
+    "Llorac": {
+      "poblacio": 101,
+      "comarca": "Conca de Barberà"
+    },
+    "Llorenç del Penedès": {
+      "poblacio": 2431,
+      "comarca": "Baix Penedès"
+    },
+    "Lloret de Mar": {
+      "poblacio": 42600,
+      "comarca": "Selva"
+    },
+    "Lluçà": {
+      "poblacio": 288,
+      "comarca": "Lluçanès"
+    },
+    "Llívia": {
+      "poblacio": 1560,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Madremanya": {
+      "poblacio": 289,
+      "comarca": "Gironès"
+    },
+    "Maials": {
+      "poblacio": 921,
+      "comarca": "Segrià"
+    },
+    "Maià de Montcal": {
+      "poblacio": 491,
+      "comarca": "Garrotxa"
+    },
+    "Maldà": {
+      "poblacio": 236,
+      "comarca": "Urgell"
+    },
+    "Malgrat de Mar": {
+      "poblacio": 19377,
+      "comarca": "Maresme"
+    },
+    "Malla": {
+      "poblacio": 272,
+      "comarca": "Osona"
+    },
+    "Manlleu": {
+      "poblacio": 21348,
+      "comarca": "Osona"
+    },
+    "Manresa": {
+      "poblacio": 80201,
+      "comarca": "Bages"
+    },
+    "Margalef": {
+      "poblacio": 106,
+      "comarca": "Priorat"
+    },
+    "Marganell": {
+      "poblacio": 308,
+      "comarca": "Bages"
+    },
+    "Martorell": {
+      "poblacio": 28507,
+      "comarca": "Baix Llobregat"
+    },
+    "Martorelles": {
+      "poblacio": 4987,
+      "comarca": "Vallès Oriental"
+    },
+    "Marçà": {
+      "poblacio": 598,
+      "comarca": "Priorat"
+    },
+    "Mas de Barberans": {
+      "poblacio": 547,
+      "comarca": "Montsià"
+    },
+    "Masarac i Vilarnadal": {
+      "poblacio": 297,
+      "comarca": "Alt Empordà"
+    },
+    "Masdenverge": {
+      "poblacio": 1149,
+      "comarca": "Montsià"
+    },
+    "Masllorenç": {
+      "poblacio": 573,
+      "comarca": "Baix Penedès"
+    },
+    "Maspujols": {
+      "poblacio": 889,
+      "comarca": "Baix Camp"
+    },
+    "Masquefa": {
+      "poblacio": 10038,
+      "comarca": "Anoia"
+    },
+    "Massalcoreig": {
+      "poblacio": 584,
+      "comarca": "Segrià"
+    },
+    "Massoteres": {
+      "poblacio": 216,
+      "comarca": "Segarra"
+    },
+    "Matadepera": {
+      "poblacio": 9815,
+      "comarca": "Vallès Occidental"
+    },
+    "Mataró": {
+      "poblacio": 131798,
+      "comarca": "Maresme"
+    },
+    "Maçanet de Cabrenys": {
+      "poblacio": 772,
+      "comarca": "Alt Empordà"
+    },
+    "Maçanet de la Selva": {
+      "poblacio": 7962,
+      "comarca": "Selva"
+    },
+    "Mediona": {
+      "poblacio": 2637,
+      "comarca": "Alt Penedès"
+    },
+    "Menàrguens": {
+      "poblacio": 789,
+      "comarca": "Noguera"
+    },
+    "Meranges": {
+      "poblacio": 112,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Mieres": {
+      "poblacio": 349,
+      "comarca": "Garrotxa"
+    },
+    "Miralcamp": {
+      "poblacio": 1390,
+      "comarca": "Pla d'Urgell"
+    },
+    "Miravet": {
+      "poblacio": 688,
+      "comarca": "Ribera d'Ebre"
+    },
+    "Moià": {
+      "poblacio": 6738,
+      "comarca": "Moianès"
+    },
+    "Molins de Rei": {
+      "poblacio": 26948,
+      "comarca": "Baix Llobregat"
+    },
+    "Mollerussa": {
+      "poblacio": 15544,
+      "comarca": "Pla d'Urgell"
+    },
+    "Mollet de Peralada": {
+      "poblacio": 215,
+      "comarca": "Alt Empordà"
+    },
+    "Mollet del Vallès": {
+      "poblacio": 52283,
+      "comarca": "Vallès Oriental"
+    },
+    "Molló": {
+      "poblacio": 374,
+      "comarca": "Ripollès"
+    },
+    "Monistrol de Calders": {
+      "poblacio": 761,
+      "comarca": "Moianès"
+    },
+    "Monistrol de Montserrat": {
+      "poblacio": 3198,
+      "comarca": "Bages"
+    },
+    "Mont-ral": {
+      "poblacio": 184,
+      "comarca": "Alt Camp"
+    },
+    "Mont-ras": {
+      "poblacio": 1690,
+      "comarca": "Baix Empordà"
+    },
+    "Mont-roig del Camp": {
+      "poblacio": 14114,
+      "comarca": "Baix Camp"
+    },
+    "Montagut i Oix": {
+      "poblacio": 1000,
+      "comarca": "Garrotxa"
+    },
+    "Montblanc": {
+      "poblacio": 7550,
+      "comarca": "Conca de Barberà"
+    },
+    "Montbrió del Camp": {
+      "poblacio": 3128,
+      "comarca": "Baix Camp"
+    },
+    "Montcada i Reixac": {
+      "poblacio": 37153,
+      "comarca": "Vallès Occidental"
+    },
+    "Montclar": {
+      "poblacio": 132,
+      "comarca": "Berguedà"
+    },
+    "Montellà i Martinet": {
+      "poblacio": 620,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Montesquiu": {
+      "poblacio": 1099,
+      "comarca": "Osona"
+    },
+    "Montferrer i Castellbò": {
+      "poblacio": 1164,
+      "comarca": "Alt Urgell"
+    },
+    "Montferri": {
+      "poblacio": 473,
+      "comarca": "Alt Camp"
+    },
+    "Montgai": {
+      "poblacio": 637,
+      "comarca": "Noguera"
+    },
+    "Montgat": {
+      "poblacio": 12625,
+      "comarca": "Maresme"
+    },
+    "Montmajor": {
+      "poblacio": 472,
+      "comarca": "Berguedà"
+    },
+    "Montmaneu": {
+      "poblacio": 200,
+      "comarca": "Anoia"
+    },
+    "Montmeló": {
+      "poblacio": 8906,
+      "comarca": "Vallès Oriental"
+    },
+    "Montoliu de Lleida": {
+      "poblacio": 475,
+      "comarca": "Segrià"
+    },
+    "Montoliu de Segarra": {
+      "poblacio": 180,
+      "comarca": "Segarra"
+    },
+    "Montornès de Segarra": {
+      "poblacio": 88,
+      "comarca": "Segarra"
+    },
+    "Montornès del Vallès": {
+      "poblacio": 17089,
+      "comarca": "Vallès Oriental"
+    },
+    "Montseny": {
+      "poblacio": 380,
+      "comarca": "Vallès Oriental"
+    },
+    "Muntanyola": {
+      "poblacio": 712,
+      "comarca": "Osona"
+    },
+    "Mura": {
+      "poblacio": 232,
+      "comarca": "Bages"
+    },
+    "Móra d'Ebre": {
+      "poblacio": 5726,
+      "comarca": "Ribera d'Ebre"
+    },
+    "Móra la Nova": {
+      "poblacio": 3314,
+      "comarca": "Ribera d'Ebre"
+    },
+    "Nalec": {
+      "poblacio": 89,
+      "comarca": "Urgell"
+    },
+    "Naut Aran": {
+      "poblacio": 1899,
+      "comarca": "Vall d'Aran"
+    },
+    "Navarcles": {
+      "poblacio": 6160,
+      "comarca": "Bages"
+    },
+    "Navata": {
+      "poblacio": 1469,
+      "comarca": "Alt Empordà"
+    },
+    "Navàs": {
+      "poblacio": 6185,
+      "comarca": "Bages"
+    },
+    "Navès": {
+      "poblacio": 300,
+      "comarca": "Solsonès"
+    },
+    "Nulles": {
+      "poblacio": 552,
+      "comarca": "Alt Camp"
+    },
+    "Odèn": {
+      "poblacio": 230,
+      "comarca": "Solsonès"
+    },
+    "Ogassa": {
+      "poblacio": 218,
+      "comarca": "Ripollès"
+    },
+    "Olesa de Bonesvalls": {
+      "poblacio": 2093,
+      "comarca": "Alt Penedès"
+    },
+    "Olesa de Montserrat": {
+      "poblacio": 24677,
+      "comarca": "Baix Llobregat"
+    },
+    "Oliana": {
+      "poblacio": 1839,
+      "comarca": "Alt Urgell"
+    },
+    "Oliola": {
+      "poblacio": 196,
+      "comarca": "Noguera"
+    },
+    "Olius": {
+      "poblacio": 1003,
+      "comarca": "Solsonès"
+    },
+    "Olivella": {
+      "poblacio": 4419,
+      "comarca": "Garraf"
+    },
+    "Olost": {
+      "poblacio": 1216,
+      "comarca": "Lluçanès"
+    },
+    "Olot": {
+      "poblacio": 38822,
+      "comarca": "Garrotxa"
+    },
+    "Olvan": {
+      "poblacio": 913,
+      "comarca": "Berguedà"
+    },
+    "Olèrdola": {
+      "poblacio": 3946,
+      "comarca": "Alt Penedès"
+    },
+    "Ordis": {
+      "poblacio": 400,
+      "comarca": "Alt Empordà"
+    },
+    "Organyà": {
+      "poblacio": 811,
+      "comarca": "Alt Urgell"
+    },
+    "Oristà": {
+      "poblacio": 569,
+      "comarca": "Lluçanès"
+    },
+    "Orpí": {
+      "poblacio": 178,
+      "comarca": "Anoia"
+    },
+    "Orís": {
+      "poblacio": 350,
+      "comarca": "Osona"
+    },
+    "Os de Balaguer": {
+      "poblacio": 1075,
+      "comarca": "Noguera"
+    },
+    "Osor": {
+      "poblacio": 418,
+      "comarca": "Selva"
+    },
+    "Ossó de Sió": {
+      "poblacio": 195,
+      "comarca": "Urgell"
+    },
+    "Pacs del Penedès": {
+      "poblacio": 935,
+      "comarca": "Alt Penedès"
+    },
+    "Palafolls": {
+      "poblacio": 9938,
+      "comarca": "Maresme"
+    },
+    "Palafrugell": {
+      "poblacio": 24300,
+      "comarca": "Baix Empordà"
+    },
+    "Palamós": {
+      "poblacio": 18651,
+      "comarca": "Baix Empordà"
+    },
+    "Palau de Santa Eulàlia": {
+      "poblacio": 136,
+      "comarca": "Alt Empordà"
+    },
+    "Palau-sator": {
+      "poblacio": 300,
+      "comarca": "Baix Empordà"
+    },
+    "Palau-saverdera": {
+      "poblacio": 1503,
+      "comarca": "Alt Empordà"
+    },
+    "Palau-solità i Plegamans": {
+      "poblacio": 15456,
+      "comarca": "Vallès Occidental"
+    },
+    "Pallejà": {
+      "poblacio": 11825,
+      "comarca": "Baix Llobregat"
+    },
+    "Palol de Revardit": {
+      "poblacio": 465,
+      "comarca": "Pla de l'Estany"
+    },
+    "Pals": {
+      "poblacio": 2556,
+      "comarca": "Baix Empordà"
+    },
+    "Pardines": {
+      "poblacio": 161,
+      "comarca": "Ripollès"
+    },
+    "Parets del Vallès": {
+      "poblacio": 18881,
+      "comarca": "Vallès Oriental"
+    },
+    "Parlavà": {
+      "poblacio": 427,
+      "comarca": "Baix Empordà"
+    },
+    "Passanant i Belltall": {
+      "poblacio": 162,
+      "comarca": "Conca de Barberà"
+    },
+    "Pau": {
+      "poblacio": 584,
+      "comarca": "Alt Empordà"
+    },
+    "Paüls": {
+      "poblacio": 544,
+      "comarca": "Baix Ebre"
+    },
+    "Pedret i Marzà": {
+      "poblacio": 188,
+      "comarca": "Alt Empordà"
+    },
+    "Penelles": {
+      "poblacio": 435,
+      "comarca": "Noguera"
+    },
+    "Perafita": {
+      "poblacio": 438,
+      "comarca": "Lluçanès"
+    },
+    "Perafort": {
+      "poblacio": 1308,
+      "comarca": "Tarragonès"
+    },
+    "Peralada": {
+      "poblacio": 2047,
+      "comarca": "Alt Empordà"
+    },
+    "Peramola": {
+      "poblacio": 357,
+      "comarca": "Alt Urgell"
+    },
+    "Piera": {
+      "poblacio": 17555,
+      "comarca": "Anoia"
+    },
+    "Pineda de Mar": {
+      "poblacio": 29455,
+      "comarca": "Maresme"
+    },
+    "Pinell de Solsonès": {
+      "poblacio": 203,
+      "comarca": "Solsonès"
+    },
+    "Pinós": {
+      "poblacio": 277,
+      "comarca": "Solsonès"
+    },
+    "Pira": {
+      "poblacio": 498,
+      "comarca": "Conca de Barberà"
+    },
+    "Planoles": {
+      "poblacio": 306,
+      "comarca": "Ripollès"
+    },
+    "Poboleda": {
+      "poblacio": 334,
+      "comarca": "Priorat"
+    },
+    "Polinyà": {
+      "poblacio": 8555,
+      "comarca": "Vallès Occidental"
+    },
+    "Pont de Molins": {
+      "poblacio": 576,
+      "comarca": "Alt Empordà"
+    },
+    "Pontils": {
+      "poblacio": 123,
+      "comarca": "Conca de Barberà"
+    },
+    "Pontons": {
+      "poblacio": 518,
+      "comarca": "Alt Penedès"
+    },
+    "Ponts": {
+      "poblacio": 2703,
+      "comarca": "Noguera"
+    },
+    "Pontós": {
+      "poblacio": 290,
+      "comarca": "Alt Empordà"
+    },
+    "Porqueres": {
+      "poblacio": 4804,
+      "comarca": "Pla de l'Estany"
+    },
+    "Porrera": {
+      "poblacio": 417,
+      "comarca": "Priorat"
+    },
+    "Portbou": {
+      "poblacio": 1082,
+      "comarca": "Alt Empordà"
+    },
+    "Pradell de la Teixeta": {
+      "poblacio": 178,
+      "comarca": "Priorat"
+    },
+    "Prades": {
+      "poblacio": 665,
+      "comarca": "Baix Camp"
+    },
+    "Prat de Comte": {
+      "poblacio": 185,
+      "comarca": "Terra Alta"
+    },
+    "Pratdip": {
+      "poblacio": 759,
+      "comarca": "Baix Camp"
+    },
+    "Prats de Lluçanès": {
+      "poblacio": 2688,
+      "comarca": "Lluçanès"
+    },
+    "Prats i Sansor": {
+      "poblacio": 249,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Preixana": {
+      "poblacio": 406,
+      "comarca": "Urgell"
+    },
+    "Preixens": {
+      "poblacio": 392,
+      "comarca": "Noguera"
+    },
+    "Premià de Dalt": {
+      "poblacio": 10594,
+      "comarca": "Maresme"
+    },
+    "Premià de Mar": {
+      "poblacio": 28951,
+      "comarca": "Maresme"
+    },
+    "Prullans": {
+      "poblacio": 252,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Puig-reig": {
+      "poblacio": 4489,
+      "comarca": "Berguedà"
+    },
+    "Puigcerdà": {
+      "poblacio": 10008,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Puigdàlber": {
+      "poblacio": 629,
+      "comarca": "Alt Penedès"
+    },
+    "Puiggròs": {
+      "poblacio": 258,
+      "comarca": "Garrigues"
+    },
+    "Puigpelat": {
+      "poblacio": 1205,
+      "comarca": "Alt Camp"
+    },
+    "Puigverd d'Agramunt": {
+      "poblacio": 240,
+      "comarca": "Urgell"
+    },
+    "Puigverd de Lleida": {
+      "poblacio": 1418,
+      "comarca": "Segrià"
+    },
+    "Pujalt": {
+      "poblacio": 210,
+      "comarca": "Anoia"
+    },
+    "Quart": {
+      "poblacio": 4099,
+      "comarca": "Gironès"
+    },
+    "Queralbs": {
+      "poblacio": 206,
+      "comarca": "Ripollès"
+    },
+    "Querol": {
+      "poblacio": 591,
+      "comarca": "Alt Camp"
+    },
+    "Rabós": {
+      "poblacio": 230,
+      "comarca": "Alt Empordà"
+    },
+    "Rajadell": {
+      "poblacio": 594,
+      "comarca": "Bages"
+    },
+    "Rasquera": {
+      "poblacio": 792,
+      "comarca": "Ribera d'Ebre"
+    },
+    "Regencós": {
+      "poblacio": 279,
+      "comarca": "Baix Empordà"
+    },
+    "Rellinars": {
+      "poblacio": 920,
+      "comarca": "Vallès Occidental"
+    },
+    "Renau": {
+      "poblacio": 158,
+      "comarca": "Tarragonès"
+    },
+    "Reus": {
+      "poblacio": 109930,
+      "comarca": "Baix Camp"
+    },
+    "Riba-roja d'Ebre": {
+      "poblacio": 1128,
+      "comarca": "Ribera d'Ebre"
+    },
+    "Ribera d'Ondara": {
+      "poblacio": 454,
+      "comarca": "Segarra"
+    },
+    "Ribera d'Urgellet": {
+      "poblacio": 965,
+      "comarca": "Alt Urgell"
+    },
+    "Ribes de Freser": {
+      "poblacio": 1847,
+      "comarca": "Ripollès"
+    },
+    "Riells i Viabrea": {
+      "poblacio": 4499,
+      "comarca": "Selva"
+    },
+    "Riner": {
+      "poblacio": 262,
+      "comarca": "Solsonès"
+    },
+    "Ripoll": {
+      "poblacio": 10692,
+      "comarca": "Ripollès"
+    },
+    "Ripollet": {
+      "poblacio": 39462,
+      "comarca": "Vallès Occidental"
+    },
+    "Riu de Cerdanya": {
+      "poblacio": 99,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Riudarenes": {
+      "poblacio": 2445,
+      "comarca": "Selva"
+    },
+    "Riudaura": {
+      "poblacio": 529,
+      "comarca": "Garrotxa"
+    },
+    "Riudecanyes": {
+      "poblacio": 1345,
+      "comarca": "Baix Camp"
+    },
+    "Riudecols": {
+      "poblacio": 1232,
+      "comarca": "Baix Camp"
+    },
+    "Riudellots de la Selva": {
+      "poblacio": 2142,
+      "comarca": "Selva"
+    },
+    "Riudoms": {
+      "poblacio": 6905,
+      "comarca": "Baix Camp"
+    },
+    "Riumors": {
+      "poblacio": 262,
+      "comarca": "Alt Empordà"
+    },
+    "Rocafort de Queralt": {
+      "poblacio": 246,
+      "comarca": "Conca de Barberà"
+    },
+    "Roda de Berà": {
+      "poblacio": 8048,
+      "comarca": "Tarragonès"
+    },
+    "Roda de Ter": {
+      "poblacio": 6900,
+      "comarca": "Osona"
+    },
+    "Rodonyà": {
+      "poblacio": 521,
+      "comarca": "Alt Camp"
+    },
+    "Roquetes": {
+      "poblacio": 8369,
+      "comarca": "Baix Ebre"
+    },
+    "Roses": {
+      "poblacio": 20362,
+      "comarca": "Alt Empordà"
+    },
+    "Rosselló": {
+      "poblacio": 3353,
+      "comarca": "Segrià"
+    },
+    "Rubió": {
+      "poblacio": 237,
+      "comarca": "Anoia"
+    },
+    "Rubí": {
+      "poblacio": 81532,
+      "comarca": "Vallès Occidental"
+    },
+    "Rupit i Pruit": {
+      "poblacio": 281,
+      "comarca": "Osona"
+    },
+    "Rupià": {
+      "poblacio": 330,
+      "comarca": "Baix Empordà"
+    },
+    "Sabadell": {
+      "poblacio": 222177,
+      "comarca": "Vallès Occidental"
+    },
+    "Sagàs": {
+      "poblacio": 153,
+      "comarca": "Berguedà"
+    },
+    "Saldes": {
+      "poblacio": 301,
+      "comarca": "Berguedà"
+    },
+    "Sales de Llierca": {
+      "poblacio": 158,
+      "comarca": "Garrotxa"
+    },
+    "Sallent": {
+      "poblacio": 6927,
+      "comarca": "Bages"
+    },
+    "Salomó": {
+      "poblacio": 525,
+      "comarca": "Tarragonès"
+    },
+    "Salou": {
+      "poblacio": 30810,
+      "comarca": "Tarragonès"
+    },
+    "Salt": {
+      "poblacio": 33904,
+      "comarca": "Gironès"
+    },
+    "Salàs de Pallars": {
+      "poblacio": 349,
+      "comarca": "Pallars Jussà"
+    },
+    "Sanaüja": {
+      "poblacio": 379,
+      "comarca": "Segarra"
+    },
+    "Sant Adrià de Besòs": {
+      "poblacio": 38490,
+      "comarca": "Barcelonès"
+    },
+    "Sant Agustí de Lluçanès": {
+      "poblacio": 108,
+      "comarca": "Osona"
+    },
+    "Sant Andreu Salou": {
+      "poblacio": 172,
+      "comarca": "Gironès"
+    },
+    "Sant Andreu de Llavaneres": {
+      "poblacio": 11933,
+      "comarca": "Maresme"
+    },
+    "Sant Andreu de la Barca": {
+      "poblacio": 27062,
+      "comarca": "Baix Llobregat"
+    },
+    "Sant Aniol de Finestres": {
+      "poblacio": 372,
+      "comarca": "Garrotxa"
+    },
+    "Sant Antoni de Vilamajor": {
+      "poblacio": 6668,
+      "comarca": "Vallès Oriental"
+    },
+    "Sant Bartomeu del Grau": {
+      "poblacio": 943,
+      "comarca": "Osona"
+    },
+    "Sant Boi de Llobregat": {
+      "poblacio": 84831,
+      "comarca": "Baix Llobregat"
+    },
+    "Sant Boi de Lluçanès": {
+      "poblacio": 575,
+      "comarca": "Osona"
+    },
+    "Sant Cebrià de Vallalta": {
+      "poblacio": 3828,
+      "comarca": "Maresme"
+    },
+    "Sant Celoni": {
+      "poblacio": 18761,
+      "comarca": "Vallès Oriental"
+    },
+    "Sant Climent Sescebes": {
+      "poblacio": 675,
+      "comarca": "Alt Empordà"
+    },
+    "Sant Climent de Llobregat": {
+      "poblacio": 4182,
+      "comarca": "Baix Llobregat"
+    },
+    "Sant Cugat Sesgarrigues": {
+      "poblacio": 1031,
+      "comarca": "Alt Penedès"
+    },
+    "Sant Cugat del Vallès": {
+      "poblacio": 98621,
+      "comarca": "Vallès Occidental"
+    },
+    "Sant Esteve Sesrovires": {
+      "poblacio": 8060,
+      "comarca": "Baix Llobregat"
+    },
+    "Sant Esteve de Palautordera": {
+      "poblacio": 3080,
+      "comarca": "Vallès Oriental"
+    },
+    "Sant Esteve de la Sarga": {
+      "poblacio": 127,
+      "comarca": "Pallars Jussà"
+    },
+    "Sant Feliu Sasserra": {
+      "poblacio": 629,
+      "comarca": "Bages"
+    },
+    "Sant Feliu de Buixalleu": {
+      "poblacio": 878,
+      "comarca": "Selva"
+    },
+    "Sant Feliu de Codines": {
+      "poblacio": 6661,
+      "comarca": "Vallès Oriental"
+    },
+    "Sant Feliu de Guíxols": {
+      "poblacio": 23050,
+      "comarca": "Baix Empordà"
+    },
+    "Sant Feliu de Llobregat": {
+      "poblacio": 46554,
+      "comarca": "Baix Llobregat"
+    },
+    "Sant Feliu de Pallerols": {
+      "poblacio": 1692,
+      "comarca": "Garrotxa"
+    },
+    "Sant Ferriol": {
+      "poblacio": 233,
+      "comarca": "Garrotxa"
+    },
+    "Sant Fost de Campsentelles": {
+      "poblacio": 9227,
+      "comarca": "Vallès Oriental"
+    },
+    "Sant Fruitós de Bages": {
+      "poblacio": 9248,
+      "comarca": "Bages"
+    },
+    "Sant Gregori": {
+      "poblacio": 4243,
+      "comarca": "Gironès"
+    },
+    "Sant Guim de Freixenet": {
+      "poblacio": 1222,
+      "comarca": "Segarra"
+    },
+    "Sant Guim de la Plana": {
+      "poblacio": 193,
+      "comarca": "Segarra"
+    },
+    "Sant Hilari Sacalm": {
+      "poblacio": 5982,
+      "comarca": "Selva"
+    },
+    "Sant Hipòlit de Voltregà": {
+      "poblacio": 3687,
+      "comarca": "Osona"
+    },
+    "Sant Iscle de Vallalta": {
+      "poblacio": 1458,
+      "comarca": "Maresme"
+    },
+    "Sant Jaume d'Enveja": {
+      "poblacio": 3667,
+      "comarca": "Montsià"
+    },
+    "Sant Jaume de Frontanyà": {
+      "poblacio": 26,
+      "comarca": "Berguedà"
+    },
+    "Sant Jaume de Llierca": {
+      "poblacio": 849,
+      "comarca": "Garrotxa"
+    },
+    "Sant Jaume dels Domenys": {
+      "poblacio": 2803,
+      "comarca": "Baix Penedès"
+    },
+    "Sant Joan Despí": {
+      "poblacio": 35083,
+      "comarca": "Baix Llobregat"
+    },
+    "Sant Joan de Mollet": {
+      "poblacio": 526,
+      "comarca": "Gironès"
+    },
+    "Sant Joan de Vilatorrada": {
+      "poblacio": 11017,
+      "comarca": "Bages"
+    },
+    "Sant Joan de les Abadesses": {
+      "poblacio": 3375,
+      "comarca": "Ripollès"
+    },
+    "Sant Joan les Fonts": {
+      "poblacio": 3111,
+      "comarca": "Garrotxa"
+    },
+    "Sant Jordi Desvalls": {
+      "poblacio": 871,
+      "comarca": "Gironès"
+    },
+    "Sant Julià de Cerdanyola": {
+      "poblacio": 232,
+      "comarca": "Berguedà"
+    },
+    "Sant Julià de Ramis": {
+      "poblacio": 3644,
+      "comarca": "Gironès"
+    },
+    "Sant Julià de Vilatorta": {
+      "poblacio": 3297,
+      "comarca": "Osona"
+    },
+    "Sant Julià del Llor i Bonmatí": {
+      "poblacio": 1373,
+      "comarca": "Selva"
+    },
+    "Sant Just Desvern": {
+      "poblacio": 20881,
+      "comarca": "Baix Llobregat"
+    },
+    "Sant Llorenç Savall": {
+      "poblacio": 2586,
+      "comarca": "Vallès Occidental"
+    },
+    "Sant Llorenç d'Hortons": {
+      "poblacio": 2617,
+      "comarca": "Alt Penedès"
+    },
+    "Sant Llorenç de Morunys": {
+      "poblacio": 1003,
+      "comarca": "Solsonès"
+    },
+    "Sant Llorenç de la Muga": {
+      "poblacio": 258,
+      "comarca": "Alt Empordà"
+    },
+    "Sant Martí Sarroca": {
+      "poblacio": 3391,
+      "comarca": "Alt Penedès"
+    },
+    "Sant Martí Sesgueioles": {
+      "poblacio": 360,
+      "comarca": "Anoia"
+    },
+    "Sant Martí Vell": {
+      "poblacio": 264,
+      "comarca": "Gironès"
+    },
+    "Sant Martí d'Albars": {
+      "poblacio": 140,
+      "comarca": "Lluçanès"
+    },
+    "Sant Martí de Centelles": {
+      "poblacio": 1259,
+      "comarca": "Osona"
+    },
+    "Sant Martí de Llémena": {
+      "poblacio": 706,
+      "comarca": "Gironès"
+    },
+    "Sant Martí de Riucorb": {
+      "poblacio": 673,
+      "comarca": "Urgell"
+    },
+    "Sant Martí de Tous": {
+      "poblacio": 1275,
+      "comarca": "Anoia"
+    },
+    "Sant Mateu de Bages": {
+      "poblacio": 637,
+      "comarca": "Bages"
+    },
+    "Sant Miquel de Campmajor": {
+      "poblacio": 254,
+      "comarca": "Pla de l'Estany"
+    },
+    "Sant Miquel de Fluvià": {
+      "poblacio": 839,
+      "comarca": "Alt Empordà"
+    },
+    "Sant Mori": {
+      "poblacio": 163,
+      "comarca": "Alt Empordà"
+    },
+    "Sant Pau de Segúries": {
+      "poblacio": 724,
+      "comarca": "Ripollès"
+    },
+    "Sant Pere Pescador": {
+      "poblacio": 2241,
+      "comarca": "Alt Empordà"
+    },
+    "Sant Pere Sallavinera": {
+      "poblacio": 158,
+      "comarca": "Anoia"
+    },
+    "Sant Pere de Ribes": {
+      "poblacio": 32121,
+      "comarca": "Garraf"
+    },
+    "Sant Pere de Riudebitlles": {
+      "poblacio": 2497,
+      "comarca": "Alt Penedès"
+    },
+    "Sant Pere de Torelló": {
+      "poblacio": 2592,
+      "comarca": "Osona"
+    },
+    "Sant Pere de Vilamajor": {
+      "poblacio": 4941,
+      "comarca": "Vallès Oriental"
+    },
+    "Sant Pol de Mar": {
+      "poblacio": 5834,
+      "comarca": "Maresme"
+    },
+    "Sant Quintí de Mediona": {
+      "poblacio": 2504,
+      "comarca": "Alt Penedès"
+    },
+    "Sant Quirze Safaja": {
+      "poblacio": 669,
+      "comarca": "Moianès"
+    },
+    "Sant Quirze de Besora": {
+      "poblacio": 2127,
+      "comarca": "Osona"
+    },
+    "Sant Quirze del Vallès": {
+      "poblacio": 20161,
+      "comarca": "Vallès Occidental"
+    },
+    "Sant Ramon": {
+      "poblacio": 495,
+      "comarca": "Segarra"
+    },
+    "Sant Sadurní d'Anoia": {
+      "poblacio": 12915,
+      "comarca": "Alt Penedès"
+    },
+    "Sant Sadurní d'Osormort": {
+      "poblacio": 84,
+      "comarca": "Osona"
+    },
+    "Sant Salvador de Guardiola": {
+      "poblacio": 3476,
+      "comarca": "Bages"
+    },
+    "Sant Vicenç de Castellet": {
+      "poblacio": 10131,
+      "comarca": "Bages"
+    },
+    "Sant Vicenç de Montalt": {
+      "poblacio": 6712,
+      "comarca": "Maresme"
+    },
+    "Sant Vicenç de Torelló": {
+      "poblacio": 2092,
+      "comarca": "Osona"
+    },
+    "Sant Vicenç dels Horts": {
+      "poblacio": 28568,
+      "comarca": "Baix Llobregat"
+    },
+    "Santa Bàrbara": {
+      "poblacio": 3827,
+      "comarca": "Montsià"
+    },
+    "Santa Cecília de Voltregà": {
+      "poblacio": 192,
+      "comarca": "Osona"
+    },
+    "Santa Coloma de Cervelló": {
+      "poblacio": 8335,
+      "comarca": "Baix Llobregat"
+    },
+    "Santa Coloma de Farners": {
+      "poblacio": 13657,
+      "comarca": "Selva"
+    },
+    "Santa Coloma de Gramenet": {
+      "poblacio": 121203,
+      "comarca": "Barcelonès"
+    },
+    "Santa Coloma de Queralt": {
+      "poblacio": 2800,
+      "comarca": "Conca de Barberà"
+    },
+    "Santa Cristina d'Aro": {
+      "poblacio": 5866,
+      "comarca": "Baix Empordà"
+    },
+    "Santa Eugènia de Berga": {
+      "poblacio": 2308,
+      "comarca": "Osona"
+    },
+    "Santa Eulàlia de Riuprimer": {
+      "poblacio": 1487,
+      "comarca": "Osona"
+    },
+    "Santa Eulàlia de Ronçana": {
+      "poblacio": 7911,
+      "comarca": "Vallès Oriental"
+    },
+    "Santa Fe del Penedès": {
+      "poblacio": 360,
+      "comarca": "Alt Penedès"
+    },
+    "Santa Llogaia d'Àlguema": {
+      "poblacio": 397,
+      "comarca": "Alt Empordà"
+    },
+    "Santa Margarida de Montbui": {
+      "poblacio": 10549,
+      "comarca": "Anoia"
+    },
+    "Santa Margarida i els Monjos": {
+      "poblacio": 7736,
+      "comarca": "Alt Penedès"
+    },
+    "Santa Maria d'Oló": {
+      "poblacio": 1077,
+      "comarca": "Moianès"
+    },
+    "Santa Maria de Besora": {
+      "poblacio": 164,
+      "comarca": "Osona"
+    },
+    "Santa Maria de Martorelles": {
+      "poblacio": 873,
+      "comarca": "Vallès Oriental"
+    },
+    "Santa Maria de Merlès": {
+      "poblacio": 175,
+      "comarca": "Berguedà"
+    },
+    "Santa Maria de Miralles": {
+      "poblacio": 137,
+      "comarca": "Anoia"
+    },
+    "Santa Maria de Palautordera": {
+      "poblacio": 10008,
+      "comarca": "Vallès Oriental"
+    },
+    "Santa Oliva": {
+      "poblacio": 3672,
+      "comarca": "Baix Penedès"
+    },
+    "Santa Pau": {
+      "poblacio": 1611,
+      "comarca": "Garrotxa"
+    },
+    "Santa Perpètua de Mogoda": {
+      "poblacio": 25960,
+      "comarca": "Vallès Occidental"
+    },
+    "Santa Susanna": {
+      "poblacio": 4023,
+      "comarca": "Maresme"
+    },
+    "Santpedor": {
+      "poblacio": 7716,
+      "comarca": "Bages"
+    },
+    "Sarral": {
+      "poblacio": 1583,
+      "comarca": "Conca de Barberà"
+    },
+    "Sarrià de Ter": {
+      "poblacio": 5392,
+      "comarca": "Gironès"
+    },
+    "Sarroca de Bellera": {
+      "poblacio": 115,
+      "comarca": "Pallars Jussà"
+    },
+    "Sarroca de Lleida": {
+      "poblacio": 381,
+      "comarca": "Segrià"
+    },
+    "Saus, Camallera i Llampaies": {
+      "poblacio": 898,
+      "comarca": "Alt Empordà"
+    },
+    "Savallà del Comtat": {
+      "poblacio": 50,
+      "comarca": "Conca de Barberà"
+    },
+    "Senan": {
+      "poblacio": 46,
+      "comarca": "Conca de Barberà"
+    },
+    "Senterada": {
+      "poblacio": 158,
+      "comarca": "Pallars Jussà"
+    },
+    "Sentmenat": {
+      "poblacio": 9553,
+      "comarca": "Vallès Occidental"
+    },
+    "Serinyà": {
+      "poblacio": 1198,
+      "comarca": "Pla de l'Estany"
+    },
+    "Serra de Daró": {
+      "poblacio": 229,
+      "comarca": "Baix Empordà"
+    },
+    "Seròs": {
+      "poblacio": 1902,
+      "comarca": "Segrià"
+    },
+    "Setcases": {
+      "poblacio": 191,
+      "comarca": "Ripollès"
+    },
+    "Seva": {
+      "poblacio": 3798,
+      "comarca": "Osona"
+    },
+    "Sidamon": {
+      "poblacio": 767,
+      "comarca": "Pla d'Urgell"
+    },
+    "Sils": {
+      "poblacio": 6720,
+      "comarca": "Selva"
+    },
+    "Sitges": {
+      "poblacio": 32405,
+      "comarca": "Garraf"
+    },
+    "Siurana": {
+      "poblacio": 180,
+      "comarca": "Alt Empordà"
+    },
+    "Sobremunt": {
+      "poblacio": 101,
+      "comarca": "Lluçanès"
+    },
+    "Solivella": {
+      "poblacio": 626,
+      "comarca": "Conca de Barberà"
+    },
+    "Solsona": {
+      "poblacio": 9480,
+      "comarca": "Solsonès"
+    },
+    "Sora": {
+      "poblacio": 219,
+      "comarca": "Osona"
+    },
+    "Soriguera": {
+      "poblacio": 444,
+      "comarca": "Pallars Sobirà"
+    },
+    "Sort": {
+      "poblacio": 2213,
+      "comarca": "Pallars Sobirà"
+    },
+    "Soses": {
+      "poblacio": 1881,
+      "comarca": "Segrià"
+    },
+    "Subirats": {
+      "poblacio": 3281,
+      "comarca": "Alt Penedès"
+    },
+    "Sudanell": {
+      "poblacio": 897,
+      "comarca": "Segrià"
+    },
+    "Sunyer": {
+      "poblacio": 313,
+      "comarca": "Segrià"
+    },
+    "Susqueda": {
+      "poblacio": 97,
+      "comarca": "Selva"
+    },
+    "Súria": {
+      "poblacio": 6090,
+      "comarca": "Bages"
+    },
+    "Tagamanent": {
+      "poblacio": 339,
+      "comarca": "Vallès Oriental"
+    },
+    "Talamanca": {
+      "poblacio": 212,
+      "comarca": "Bages"
+    },
+    "Talarn": {
+      "poblacio": 539,
+      "comarca": "Pallars Jussà"
+    },
+    "Talavera": {
+      "poblacio": 280,
+      "comarca": "Segarra"
+    },
+    "Taradell": {
+      "poblacio": 6844,
+      "comarca": "Osona"
+    },
+    "Tarragona": {
+      "poblacio": 141151,
+      "comarca": "Tarragonès"
+    },
+    "Tarroja de Segarra": {
+      "poblacio": 170,
+      "comarca": "Segarra"
+    },
+    "Tarrés": {
+      "poblacio": 125,
+      "comarca": "Garrigues"
+    },
+    "Tavertet": {
+      "poblacio": 131,
+      "comarca": "Osona"
+    },
+    "Tavèrnoles": {
+      "poblacio": 341,
+      "comarca": "Osona"
+    },
+    "Teià": {
+      "poblacio": 6818,
+      "comarca": "Maresme"
+    },
+    "Terrades": {
+      "poblacio": 345,
+      "comarca": "Alt Empordà"
+    },
+    "Terrassa": {
+      "poblacio": 228708,
+      "comarca": "Vallès Occidental"
+    },
+    "Tiana": {
+      "poblacio": 9305,
+      "comarca": "Maresme"
+    },
+    "Tiurana": {
+      "poblacio": 66,
+      "comarca": "Noguera"
+    },
+    "Tivenys": {
+      "poblacio": 936,
+      "comarca": "Baix Ebre"
+    },
+    "Tivissa": {
+      "poblacio": 1632,
+      "comarca": "Ribera d'Ebre"
+    },
+    "Tona": {
+      "poblacio": 8511,
+      "comarca": "Osona"
+    },
+    "Tordera": {
+      "poblacio": 18780,
+      "comarca": "Maresme"
+    },
+    "Torelló": {
+      "poblacio": 15093,
+      "comarca": "Osona"
+    },
+    "Tornabous": {
+      "poblacio": 851,
+      "comarca": "Urgell"
+    },
+    "Torre-serona": {
+      "poblacio": 435,
+      "comarca": "Segrià"
+    },
+    "Torrebesses": {
+      "poblacio": 273,
+      "comarca": "Segrià"
+    },
+    "Torredembarra": {
+      "poblacio": 17984,
+      "comarca": "Tarragonès"
+    },
+    "Torrefarrera": {
+      "poblacio": 4861,
+      "comarca": "Segrià"
+    },
+    "Torrefeta i Florejacs": {
+      "poblacio": 605,
+      "comarca": "Segarra"
+    },
+    "Torregrossa": {
+      "poblacio": 2194,
+      "comarca": "Pla d'Urgell"
+    },
+    "Torrelameu": {
+      "poblacio": 766,
+      "comarca": "Noguera"
+    },
+    "Torrelles de Foix": {
+      "poblacio": 2657,
+      "comarca": "Alt Penedès"
+    },
+    "Torrelles de Llobregat": {
+      "poblacio": 6155,
+      "comarca": "Baix Llobregat"
+    },
+    "Torrent": {
+      "poblacio": 173,
+      "comarca": "Baix Empordà"
+    },
+    "Torres de Segre": {
+      "poblacio": 2318,
+      "comarca": "Segrià"
+    },
+    "Torroella de Fluvià": {
+      "poblacio": 772,
+      "comarca": "Alt Empordà"
+    },
+    "Torroella de Montgrí": {
+      "poblacio": 12521,
+      "comarca": "Baix Empordà"
+    },
+    "Torroja del Priorat": {
+      "poblacio": 137,
+      "comarca": "Priorat"
+    },
+    "Tortellà": {
+      "poblacio": 828,
+      "comarca": "Garrotxa"
+    },
+    "Tortosa": {
+      "poblacio": 35265,
+      "comarca": "Baix Ebre"
+    },
+    "Torà": {
+      "poblacio": 1207,
+      "comarca": "Solsonès"
+    },
+    "Toses": {
+      "poblacio": 191,
+      "comarca": "Ripollès"
+    },
+    "Tossa de Mar": {
+      "poblacio": 6274,
+      "comarca": "Selva"
+    },
+    "Tremp": {
+      "poblacio": 6015,
+      "comarca": "Pallars Jussà"
+    },
+    "Tàrrega": {
+      "poblacio": 18542,
+      "comarca": "Urgell"
+    },
+    "Térmens": {
+      "poblacio": 1347,
+      "comarca": "Noguera"
+    },
+    "Tírvia": {
+      "poblacio": 144,
+      "comarca": "Pallars Sobirà"
+    },
+    "Ullastrell": {
+      "poblacio": 2176,
+      "comarca": "Vallès Occidental"
+    },
+    "Ullastret": {
+      "poblacio": 260,
+      "comarca": "Baix Empordà"
+    },
+    "Ulldecona": {
+      "poblacio": 6551,
+      "comarca": "Montsià"
+    },
+    "Ulldemolins": {
+      "poblacio": 416,
+      "comarca": "Priorat"
+    },
+    "Ullà": {
+      "poblacio": 1219,
+      "comarca": "Baix Empordà"
+    },
+    "Ultramort": {
+      "poblacio": 214,
+      "comarca": "Baix Empordà"
+    },
+    "Urús": {
+      "poblacio": 207,
+      "comarca": "Baixa Cerdanya"
+    },
+    "Vacarisses": {
+      "poblacio": 7563,
+      "comarca": "Vallès Occidental"
+    },
+    "Vall de Cardós": {
+      "poblacio": 375,
+      "comarca": "Pallars Sobirà"
+    },
+    "Vall-llobrega": {
+      "poblacio": 906,
+      "comarca": "Baix Empordà"
+    },
+    "Vallbona d'Anoia": {
+      "poblacio": 1406,
+      "comarca": "Anoia"
+    },
+    "Vallbona de les Monges": {
+      "poblacio": 223,
+      "comarca": "Urgell"
+    },
+    "Vallcebre": {
+      "poblacio": 271,
+      "comarca": "Berguedà"
+    },
+    "Vallclara": {
+      "poblacio": 89,
+      "comarca": "Conca de Barberà"
+    },
+    "Vallfogona de Balaguer": {
+      "poblacio": 2000,
+      "comarca": "Noguera"
+    },
+    "Vallfogona de Ripollès": {
+      "poblacio": 222,
+      "comarca": "Ripollès"
+    },
+    "Vallfogona de Riucorb": {
+      "poblacio": 97,
+      "comarca": "Conca de Barberà"
+    },
+    "Vallgorguina": {
+      "poblacio": 3198,
+      "comarca": "Vallès Oriental"
+    },
+    "Vallirana": {
+      "poblacio": 15985,
+      "comarca": "Baix Llobregat"
+    },
+    "Vallmoll": {
+      "poblacio": 1951,
+      "comarca": "Alt Camp"
+    },
+    "Vallromanes": {
+      "poblacio": 2742,
+      "comarca": "Vallès Oriental"
+    },
+    "Valls": {
+      "poblacio": 25047,
+      "comarca": "Alt Camp"
+    },
+    "Vandellòs i l'Hospitalet de l'Infant": {
+      "poblacio": 7104,
+      "comarca": "Baix Camp"
+    },
+    "Veciana": {
+      "poblacio": 172,
+      "comarca": "Anoia"
+    },
+    "Ventalló": {
+      "poblacio": 891,
+      "comarca": "Alt Empordà"
+    },
+    "Verdú": {
+      "poblacio": 886,
+      "comarca": "Urgell"
+    },
+    "Verges": {
+      "poblacio": 1187,
+      "comarca": "Baix Empordà"
+    },
+    "Vespella de Gaià": {
+      "poblacio": 506,
+      "comarca": "Tarragonès"
+    },
+    "Vic": {
+      "poblacio": 49530,
+      "comarca": "Osona"
+    },
+    "Vidreres": {
+      "poblacio": 8538,
+      "comarca": "Selva"
+    },
+    "Vidrà": {
+      "poblacio": 169,
+      "comarca": "Osona"
+    },
+    "Vielha e Mijaran": {
+      "poblacio": 5832,
+      "comarca": "Vall d'Aran"
+    },
+    "Vila-rodona": {
+      "poblacio": 1374,
+      "comarca": "Alt Camp"
+    },
+    "Vila-sacra": {
+      "poblacio": 811,
+      "comarca": "Alt Empordà"
+    },
+    "Vila-sana": {
+      "poblacio": 753,
+      "comarca": "Pla d'Urgell"
+    },
+    "Vila-seca": {
+      "poblacio": 23826,
+      "comarca": "Tarragonès"
+    },
+    "Vilabella": {
+      "poblacio": 723,
+      "comarca": "Alt Camp"
+    },
+    "Vilabertran": {
+      "poblacio": 984,
+      "comarca": "Alt Empordà"
+    },
+    "Vilablareix": {
+      "poblacio": 3772,
+      "comarca": "Gironès"
+    },
+    "Vilada": {
+      "poblacio": 443,
+      "comarca": "Berguedà"
+    },
+    "Viladamat": {
+      "poblacio": 492,
+      "comarca": "Alt Empordà"
+    },
+    "Viladasens": {
+      "poblacio": 212,
+      "comarca": "Gironès"
+    },
+    "Viladecans": {
+      "poblacio": 67348,
+      "comarca": "Baix Llobregat"
+    },
+    "Viladecavalls": {
+      "poblacio": 7802,
+      "comarca": "Vallès Occidental"
+    },
+    "Vilademuls": {
+      "poblacio": 866,
+      "comarca": "Pla de l'Estany"
+    },
+    "Viladrau": {
+      "poblacio": 1172,
+      "comarca": "Osona"
+    },
+    "Vilafant": {
+      "poblacio": 5706,
+      "comarca": "Alt Empordà"
+    },
+    "Vilafranca del Penedès": {
+      "poblacio": 41504,
+      "comarca": "Alt Penedès"
+    },
+    "Vilagrassa": {
+      "poblacio": 633,
+      "comarca": "Urgell"
+    },
+    "Vilajuïga": {
+      "poblacio": 1179,
+      "comarca": "Alt Empordà"
+    },
+    "Vilalba Sasserra": {
+      "poblacio": 780,
+      "comarca": "Vallès Oriental"
+    },
+    "Vilalba dels Arcs": {
+      "poblacio": 608,
+      "comarca": "Terra Alta"
+    },
+    "Vilaller": {
+      "poblacio": 506,
+      "comarca": "Alta Ribagorça"
+    },
+    "Vilallonga de Ter": {
+      "poblacio": 395,
+      "comarca": "Ripollès"
+    },
+    "Vilallonga del Camp": {
+      "poblacio": 2451,
+      "comarca": "Tarragonès"
+    },
+    "Vilamacolum": {
+      "poblacio": 376,
+      "comarca": "Alt Empordà"
+    },
+    "Vilamalla": {
+      "poblacio": 1220,
+      "comarca": "Alt Empordà"
+    },
+    "Vilamaniscle": {
+      "poblacio": 201,
+      "comarca": "Alt Empordà"
+    },
+    "Vilamòs": {
+      "poblacio": 175,
+      "comarca": "Vall d'Aran"
+    },
+    "Vilanant": {
+      "poblacio": 402,
+      "comarca": "Alt Empordà"
+    },
+    "Vilanova d'Escornalbou": {
+      "poblacio": 610,
+      "comarca": "Baix Camp"
+    },
+    "Vilanova de Bellpuig": {
+      "poblacio": 1168,
+      "comarca": "Pla d'Urgell"
+    },
+    "Vilanova de Meià": {
+      "poblacio": 466,
+      "comarca": "Noguera"
+    },
+    "Vilanova de Prades": {
+      "poblacio": 111,
+      "comarca": "Conca de Barberà"
+    },
+    "Vilanova de Sau": {
+      "poblacio": 317,
+      "comarca": "Osona"
+    },
+    "Vilanova de Segrià": {
+      "poblacio": 1065,
+      "comarca": "Segrià"
+    },
+    "Vilanova de l'Aguda": {
+      "poblacio": 193,
+      "comarca": "Noguera"
+    },
+    "Vilanova de la Barca": {
+      "poblacio": 1107,
+      "comarca": "Segrià"
+    },
+    "Vilanova del Camí": {
+      "poblacio": 12844,
+      "comarca": "Anoia"
+    },
+    "Vilanova del Vallès": {
+      "poblacio": 5632,
+      "comarca": "Vallès Oriental"
+    },
+    "Vilanova i la Geltrú": {
+      "poblacio": 70418,
+      "comarca": "Garraf"
+    },
+    "Vilaplana": {
+      "poblacio": 553,
+      "comarca": "Baix Camp"
+    },
+    "Vilassar de Dalt": {
+      "poblacio": 9281,
+      "comarca": "Maresme"
+    },
+    "Vilassar de Mar": {
+      "poblacio": 21162,
+      "comarca": "Maresme"
+    },
+    "Vilaverd": {
+      "poblacio": 468,
+      "comarca": "Conca de Barberà"
+    },
+    "Vilaür": {
+      "poblacio": 170,
+      "comarca": "Alt Empordà"
+    },
+    "Vilobí d'Onyar": {
+      "poblacio": 3315,
+      "comarca": "Selva"
+    },
+    "Vilobí del Penedès": {
+      "poblacio": 1150,
+      "comarca": "Alt Penedès"
+    },
+    "Vilopriu": {
+      "poblacio": 201,
+      "comarca": "Baix Empordà"
+    },
+    "Vimbodí i Poblet": {
+      "poblacio": 893,
+      "comarca": "Conca de Barberà"
+    },
+    "Vinaixa": {
+      "poblacio": 450,
+      "comarca": "Garrigues"
+    },
+    "Vinebre": {
+      "poblacio": 424,
+      "comarca": "Ribera d'Ebre"
+    },
+    "Vinyols i els Arcs": {
+      "poblacio": 2400,
+      "comarca": "Baix Camp"
+    },
+    "Viver i Serrateix": {
+      "poblacio": 175,
+      "comarca": "Berguedà"
+    },
+    "Xerta": {
+      "poblacio": 1156,
+      "comarca": "Baix Ebre"
+    },
+    "Àger": {
+      "poblacio": 602,
+      "comarca": "Noguera"
+    },
+    "Òdena": {
+      "poblacio": 3710,
+      "comarca": "Anoia"
+    },
+    "Òrrius": {
+      "poblacio": 805,
+      "comarca": "Maresme"
+    },
+    "Pinell de Brai, el": {
+      "poblacio": 979,
+      "comarca": "Terra Alta"
+    },
+    "Pla de Santa Maria, el": {
+      "poblacio": 2389,
+      "comarca": "Alt Camp"
+    },
+    "Pla del Penedès, el": {
+      "poblacio": 1352,
+      "comarca": "Alt Penedès"
+    },
+    "Pont de Suert, el": {
+      "poblacio": 165,
+      "comarca": "Alt Urgell"
+    },
+    "Pont de Bar, el": {
+      "poblacio": 2380,
+      "comarca": "Alta Ribagorça"
+    },
+    "Pont de Vilomara i Rocafort, el": {
+      "poblacio": 4140,
+      "comarca": "Bages"
+    },
+    "Port de la Selva, el": {
+      "poblacio": 1061,
+      "comarca": "Alt Empordà"
+    },
+    "Prat de Llobregat, el": {
+      "poblacio": 66184,
+      "comarca": "Baix Llobregat"
+    },
+    "Hostalets de Pierola, els": {
+      "poblacio": 3231,
+      "comarca": "Anoia"
+    },
+    "Omells de na Gaia, els": {
+      "poblacio": 121,
+      "comarca": "Urgell"
+    },
+    "Plans de Sió, els": {
+      "poblacio": 512,
+      "comarca": "Segarra"
+    },
+    "Prats de Rei, els": {
+      "poblacio": 553,
+      "comarca": "Anoia"
+    },
+    "Baronia de Rialb, la": {
+      "poblacio": 231,
+      "comarca": "Noguera"
+    },
+    "Bisbal de Montsant, la": {
+      "poblacio": 208,
+      "comarca": "Priorat"
+    },
+    "Bisbal del Penedès, la": {
+      "poblacio": 4168,
+      "comarca": "Baix Penedès"
+    },
+    "Cellera de Ter, la": {
+      "poblacio": 2014,
+      "comarca": "Selva"
+    },
+    "Coma i la Pedra, la": {
+      "poblacio": 282,
+      "comarca": "Solsonès"
+    },
+    "Morera de Montsant, la": {
+      "poblacio": 138,
+      "comarca": "Priorat"
+    },
+    "Nou de Gaià, la": {
+      "poblacio": 163,
+      "comarca": "Berguedà"
+    },
+    "Nou de Berguedà, la": {
+      "poblacio": 611,
+      "comarca": "Tarragonès"
+    },
+    "Palma de Cervelló, la": {
+      "poblacio": 3044,
+      "comarca": "Baix Llobregat"
+    },
+    "Pobla de Claramunt, la": {
+      "poblacio": 2353,
+      "comarca": "Anoia"
+    },
+    "Pobla de Montornès, la": {
+      "poblacio": 205,
+      "comarca": "Garrigues"
+    },
+    "Pobla de Cérvoles, la": {
+      "poblacio": 1109,
+      "comarca": "Berguedà"
+    },
+    "Pobla de Massaluca, la": {
+      "poblacio": 4115,
+      "comarca": "Tarragonès"
+    },
+    "Pobla de Mafumet, la": {
+      "poblacio": 344,
+      "comarca": "Terra Alta"
+    },
+    "Pobla de Lillet, la": {
+      "poblacio": 3329,
+      "comarca": "Tarragonès"
+    },
+    "Pobla de Segur, la": {
+      "poblacio": 3015,
+      "comarca": "Pallars Jussà"
+    },
+    "Riera de Gaià, la": {
+      "poblacio": 1807,
+      "comarca": "Tarragonès"
+    },
+    "Roca del Vallès, la": {
+      "poblacio": 10962,
+      "comarca": "Vallès Oriental"
+    },
+    "Selva de Mar, la": {
+      "poblacio": 220,
+      "comarca": "Alt Empordà"
+    },
+    "Selva del Camp, la": {
+      "poblacio": 5819,
+      "comarca": "Baix Camp"
+    },
+    "Sentiu de Sió, la": {
+      "poblacio": 455,
+      "comarca": "Noguera"
+    },
+    "Torre de Fontaubella, la": {
+      "poblacio": 785,
+      "comarca": "Pallars Jussà"
+    },
+    "Torre de l'Espanyol, la": {
+      "poblacio": 4122,
+      "comarca": "Anoia"
+    },
+    "Torre de Cabdella, la": {
+      "poblacio": 119,
+      "comarca": "Priorat"
+    },
+    "Torre de Claramunt, la": {
+      "poblacio": 631,
+      "comarca": "Ribera d'Ebre"
+    },
+    "Vall d'en Bas, la": {
+      "poblacio": 3219,
+      "comarca": "Garrotxa"
+    },
+    "Vall de Boí, la": {
+      "poblacio": 1350,
+      "comarca": "Garrotxa"
+    },
+    "Vall de Bianya, la": {
+      "poblacio": 1116,
+      "comarca": "Alta Ribagorça"
+    },
+    "Vansa i Fórnols, la": {
+      "poblacio": 188,
+      "comarca": "Alt Urgell"
+    },
+    "Avellanes i Santa Linya, les": {
+      "poblacio": 430,
+      "comarca": "Noguera"
+    },
+    "Borges del Camp, les": {
+      "poblacio": 2260,
+      "comarca": "Baix Camp"
+    },
+    "Franqueses del Vallès, les": {
+      "poblacio": 20715,
+      "comarca": "Vallès Oriental"
+    },
+    "Masies de Voltregà, les": {
+      "poblacio": 750,
+      "comarca": "Osona"
+    },
+    "Masies de Roda, les": {
+      "poblacio": 3292,
+      "comarca": "Osona"
+    },
+    "Valls de Valira, les": {
+      "poblacio": 810,
+      "comarca": "Alt Urgell"
+    },
+    "Hospitalet de Llobregat, l'": {
+      "poblacio": 267000,
+      "superficie": "12.4",
+      "densitat": "21532",
+      "provincia": "Barcelona",
+      "comarca": "Barcelonès"
+    },
+    "Cabanyes, les": {
+      "poblacio": 978,
+      "comarca": "Alt Empordà"
+    },
+    "l'Hospitalet de Llobregat": {
+      "poblacio": 267000,
+      "superficie": "12.4",
+      "densitat": "21532",
+      "provincia": "Barcelona",
+      "comarca": "Barcelonès"
+    },
+    "Hospitalet de Llobregat": {
+      "poblacio": 267000,
+      "superficie": "12.4",
+      "densitat": "21532",
+      "provincia": "Barcelona",
+      "comarca": "Barcelonès"
+    }
+  },
+  "metadata": {
+    "source": "Wikipedia - Llista de municipis de Catalunya",
+    "url": "https://ca.wikipedia.org/wiki/Llista_de_municipis_de_Catalunya",
+    "total_wikipedia": 947,
+    "total_mapped": 858,
+    "exact_matches": 807,
+    "fuzzy_matches": 47,
+    "no_matches": 93,
+    "additional_manual_mappings": 0,
+    "article_transformations": 0,
+    "manual_transformations": 0,
+    "final_real_mappings": 1,
+    "manual_mappings_final": 0,
+    "auto_mappings_final": 1,
+    "total_new_mappings": 1,
+    "hospitalet_fix": {
+      "applied": true,
+      "note": "Added correct population data for l'Hospitalet de Llobregat (267,000 hab.)",
+      "source": "IDESCAT official data 2024"
+    }
+  }
+}

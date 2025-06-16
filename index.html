@@ -22,6 +22,7 @@
         color: white;
         padding: 1rem;
         text-align: center;
+        z-index: 1000;
       }
       .header h1 {
         margin: 0;
@@ -29,15 +30,299 @@
       .content {
         flex: 1;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
+        position: relative;
       }
-      #map {
-        width: 66.66%;
-        height: 66.66vh;
-        border: 2px solid #ccc;
+      
+      /* Sidebar Styles */
+      .sidebar {
+        width: 350px;
+        background: white;
+        box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+        padding: 20px;
+        overflow-y: auto;
+        z-index: 1000;
+        border-right: 1px solid #ddd;
+      }
+      
+      .sidebar h2 {
+        color: #2c3e50;
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 1.4em;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+      }
+      
+      .control-section {
+        margin-bottom: 25px;
+        padding: 15px;
+        background: #f8f9fa;
         border-radius: 8px;
+        border: 1px solid #e9ecef;
+      }
+      
+      .control-section h3 {
+        color: #34495e;
+        margin: 0 0 15px 0;
+        font-size: 1.1em;
+      }
+      
+      .toggle-group {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      
+      .toggle-item {
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+      
+      .toggle-item:hover {
+        background-color: #f0f0f0;
+      }
+      
+      .toggle-item input[type="checkbox"] {
+        margin-right: 10px;
+        transform: scale(1.2);
+      }
+      
+      .toggle-item label {
+        flex: 1;
+        cursor: pointer;
+        font-weight: 500;
+      }
+      
+      /* Group Management */
+      .group-controls {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 15px;
+      }
+      
+      .group-controls select {
+        flex: 1;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 14px;
+      }
+      
+      .color-picker {
+        width: 40px;
+        height: 38px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      /* Selection Mode */
+      .selection-mode-active .sidebar {
+        background: linear-gradient(135deg, #e8f4f8 0%, #f0f8ff 100%);
+        border-left: 4px solid #3498db;
+      }
+      
+      .selection-panel {
+        display: none;
+        background: #e3f2fd;
+        border: 2px solid #2196f3;
+        border-radius: 8px;
+        padding: 15px;
+        margin: 10px 0;
+        animation: slideIn 0.3s ease-out;
+      }
+      
+      .selection-panel.active {
+        display: block;
+      }
+      
+      @keyframes slideIn {
+        from {
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      .selection-info {
+        background: white;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        border-left: 4px solid #2196f3;
+      }
+      
+      .selection-counter {
+        font-weight: bold;
+        color: #1976d2;
+        font-size: 1.1em;
+      }
+      
+      .selection-list {
+        max-height: 100px;
+        overflow-y: auto;
+        background: white;
+        border-radius: 4px;
+        padding: 8px;
+        margin: 8px 0;
+        border: 1px solid #ddd;
+      }
+      
+      .selected-item {
+        padding: 4px 8px;
+        margin: 2px 0;
+        background: #e3f2fd;
+        border-radius: 3px;
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .remove-selected {
+        cursor: pointer;
+        color: #f44336;
+        font-weight: bold;
+        margin-left: 8px;
+      }
+      
+      .remove-selected:hover {
+        color: #d32f2f;
+      }
+      
+      .btn {
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.3s;
+      }
+      
+      .btn-primary {
+        background-color: #3498db;
+        color: white;
+      }
+      
+      .btn-primary:hover {
+        background-color: #2980b9;
+      }
+      
+      .btn-danger {
+        background-color: #e74c3c;
+        color: white;
+      }
+      
+      .btn-danger:hover {
+        background-color: #c0392b;
+      }
+      
+      .btn-small {
+        padding: 4px 8px;
+        font-size: 12px;
+      }
+      
+      /* Group List */
+      .groups-list {
+        max-height: 300px;
+        overflow-y: auto;
+      }
+      
+      .group-item {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        margin-bottom: 8px;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        transition: all 0.3s;
+      }
+      
+      .group-item:hover {
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      
+      .group-color {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-right: 10px;
+        border: 2px solid #fff;
+        box-shadow: 0 0 0 1px #ddd;
+      }
+      
+      .group-info {
+        flex: 1;
+      }
+      
+      .group-name {
+        font-weight: bold;
+        color: #2c3e50;
+        margin-bottom: 4px;
+      }
+      
+      .group-stats {
+        font-size: 12px;
+        color: #7f8c8d;
+      }
+      
+      .group-actions {
+        display: flex;
+        gap: 5px;
+      }
+      
+      /* Statistics Panel */
+      .stats-panel {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 20px;
+      }
+      
+      .stats-panel h4 {
+        margin: 0 0 10px 0;
+        font-size: 1.1em;
+      }
+      
+      .stat-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 0;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+      }
+      
+      .stat-item:last-child {
+        border-bottom: none;
+      }
+      
+      .stat-value {
+        font-weight: bold;
+      }
+      
+      #map {
+        flex: 1;
+        height: 100%;
+      }
+      
+      /* Responsive */
+      @media (max-width: 768px) {
+        .content {
+          flex-direction: column;
+        }
+        .sidebar {
+          width: 100%;
+          height: 300px;
+        }
       }
     </style>
   </head>
@@ -47,109 +332,1408 @@
     </div>
     
     <div class="content">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <h2>🗺️ Control Panel</h2>
+        
+        <!-- Credits -->
+        <div class="credits-panel" style="margin-bottom: 15px; padding: 10px; background: #f8f9fa; border-radius: 6px; font-size: 11px; color: #666;">
+          <div style="text-align: center;">
+            <div style="margin-bottom: 3px;">
+              <strong>Hecho por:</strong> <a href="https://linktr.ee/EduNauta" target="_blank" style="color: #2c3e50; text-decoration: none;">Edu Nauta</a> + Cursor
+            </div>
+            <div style="font-size: 10px; color: #999;">
+              Fecha: <span id="currentDate"></span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Layer Controls -->
+        <div class="control-section">
+          <h3>📊 Capas del Mapa</h3>
+          <div class="toggle-group">
+            <div class="toggle-item">
+              <input type="checkbox" id="municipalitiesToggle" checked>
+              <label for="municipalitiesToggle">Comarcas</label>
+            </div>
+            <div class="toggle-item">
+              <input type="checkbox" id="centroidsToggle" checked>
+              <label for="centroidsToggle">Municipios</label>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Group Management -->
+        <div class="control-section">
+          <h3>🎨 Gestión de Grupos</h3>
+          <div class="group-controls">
+            <input type="color" id="groupColor" class="color-picker" value="#3498db">
+            <button id="createGroupBtn" class="btn btn-primary btn-small">🎯 Crear Grupo</button>
+          </div>
+          <div class="group-controls">
+            <input type="text" id="groupNameInput" placeholder="Nombre del grupo..." style="flex: 1; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+          </div>
+          <p style="font-size: 12px; color: #666; margin: 8px 0; text-align: center;">
+            💡 Selecciona municipios y/o comarcas en el mapa
+          </p>
+          
+          <!-- Selection Panel (Hidden by default) -->
+          <div id="selectionPanel" class="selection-panel">
+            <div class="selection-info">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                <span>🎯 <strong>Modo Selección Activo</strong></span>
+                <span class="selection-counter" id="selectionCounter">0 seleccionados</span>
+              </div>
+              <p style="margin: 0; font-size: 12px; color: #666;">
+                🖱️ Haz clic en municipios o comarcas para agregarlos al grupo
+              </p>
+            </div>
+            
+            <div id="selectionList" class="selection-list">
+              <em style="color: #999;">Ningún elemento seleccionado</em>
+            </div>
+            
+            <div style="display: flex; gap: 8px; margin-top: 10px;">
+              <button id="completeGroupBtn" class="btn btn-primary" style="flex: 1;">
+                ✅ Completar Grupo
+              </button>
+              <button id="cancelSelectionBtn" class="btn btn-danger">
+                ❌ Cancelar
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Active Groups -->
+        <div class="control-section">
+          <h3>📋 Grupos Activos</h3>
+          <div id="groupsList" class="groups-list">
+            <div style="text-align: center; color: #7f8c8d; font-style: italic; padding: 20px;">
+              No hay grupos creados
+            </div>
+          </div>
+          <button id="clearAllGroupsBtn" class="btn btn-danger" style="width: 100%; margin-top: 10px;">
+            🗑️ Limpiar Todos
+          </button>
+        </div>
+        
+        <!-- Statistics -->
+        <div class="stats-panel">
+          <h4>📈 Estadísticas</h4>
+          <div class="stat-item">
+            <span>Grupos Activos:</span>
+            <span id="totalGroups" class="stat-value">0</span>
+          </div>
+          <div class="stat-item">
+            <span>Municipios Agrupados:</span>
+            <span id="groupedMunicipalities" class="stat-value">0</span>
+          </div>
+          <div class="stat-item">
+            <span>Población Total:</span>
+            <span id="totalPopulation" class="stat-value">0</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Map -->
       <div id="map"></div>
     </div>
 
     <script>
+      // Global variables
+      let map, municipalitiesLayer, centroidsLayer, groupLinesLayer;
+      let municipalitiesData = null;
+      let centroidsData = null;
+      let activeGroups = new Map();
+      let groupCounter = 0;
+      
+      // Selection mode variables
+      let isSelectionMode = false;
+      let selectedFeatures = new Set();
+      let currentSelectionColor = '#3498db';
+      let hoveredLayer = null;
+      let municipalityLayers = new Map(); // Store layer references
+      let centroidLayers = new Map(); // Store layer references
+      
+      // Generate random distinct colors for groups
+      function generateRandomColor() {
+        const colors = [
+          '#e74c3c', '#3498db', '#2ecc71', '#f39c12', '#9b59b6',
+          '#1abc9c', '#34495e', '#e67e22', '#95a5a6', '#d35400',
+          '#8e44ad', '#27ae60', '#2980b9', '#f1c40f', '#16a085',
+          '#c0392b', '#bdc3c7', '#7f8c8d', '#e84393', '#00b894',
+          '#fdcb6e', '#6c5ce7', '#fd79a8', '#00cec9', '#2d3436'
+        ];
+        
+        // Get already used colors
+        const usedColors = Array.from(activeGroups.values()).map(group => group.color);
+        
+        // Find available colors
+        const availableColors = colors.filter(color => !usedColors.includes(color));
+        
+        // If all colors are used, generate a random one
+        if (availableColors.length === 0) {
+          const hue = Math.floor(Math.random() * 360);
+          return `hsl(${hue}, 70%, 50%)`;
+        }
+        
+        // Return random available color
+        return availableColors[Math.floor(Math.random() * availableColors.length)];
+      }
+
+      // Population data variables
+      let populationDataComarques = null;
+      let populationDataMunicipis = null;
+
       // Initialize the map
-      const map = L.map('map').setView([41.7, 1.8], 8);
+      function initializeMap() {
+        map = L.map('map').setView([41.7, 1.8], 8);
 
-      // Add OpenStreetMap base layer
-      const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '© OpenStreetMap contributors'
-      }).addTo(map);
+        // Add OpenStreetMap base layer
+        const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 19,
+          attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
 
-      // Create layer groups
-      const municipalitiesLayer = L.layerGroup().addTo(map);
-      const centroidsLayer = L.layerGroup().addTo(map);
+        // Create custom panes with proper z-index ordering
+        map.createPane('comarcasPane');
+        map.createPane('municipalitiesPane');
+        
+        // Set z-index for layers (higher numbers appear on top)
+        map.getPane('comarcasPane').style.zIndex = 100;
+        map.getPane('municipalitiesPane').style.zIndex = 1000;
+        
+        // Default markerPane has z-index 600, we'll use municipalitiesPane for municipality points
+        map.getPane('municipalitiesPane').style.pointerEvents = 'auto';
+        map.getPane('comarcasPane').style.pointerEvents = 'auto';
+        
+        // Ensure popups appear on top of everything
+        map.getPane('popupPane').style.zIndex = 2000;
 
-      // Style for municipalities
-      const municipalityStyle = {
-        color: "#2c3e50",
-        weight: 1.5,
-        opacity: 0.8,
-        fillOpacity: 0.1
-      };
+        // Create layer groups with proper z-index (boundaries first, then centroids on top)
+        municipalitiesLayer = L.layerGroup();
+        centroidsLayer = L.layerGroup();
+        groupLinesLayer = L.layerGroup(); // Capa para líneas conectoras de grupos
+        
+        // Add layers to map with proper ordering
+        municipalitiesLayer.addTo(map);
+        groupLinesLayer.addTo(map); // Agregar líneas antes que centroids para que estén abajo
+        centroidsLayer.addTo(map);
 
-      // Load municipality boundaries
-      fetch('data/municipis-geo.json')
-        .then(response => response.json())
-        .then(data => {
-          L.geoJSON(data, {
-            style: municipalityStyle,
-            onEachFeature: function(feature, layer) {
-              const props = feature.properties;
-              layer.bindPopup(`
-                <div style="font-family: Arial, sans-serif; min-width: 200px;">
-                    <h3 style="margin: 0 0 8px 0; color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 4px;">
-                        ${props.cap_comar || 'Información no disponible'}
-                    </h3>
-                    <p style="margin: 4px 0;"><strong>Comarca:</strong> ${props.nom_comar || 'No disponible'}</p>
-                    <p style="margin: 4px 0;"><strong>Código comarca:</strong> ${props.comarca || 'No disponible'}</p>
-                </div>
-              `);
+        // Add layer control
+        const baseMaps = {
+          "Mapa Base": osm
+        };
+
+        const overlayMaps = {
+          "Comarcas": municipalitiesLayer,
+          "Municipios": centroidsLayer
+        };
+
+        L.control.layers(baseMaps, overlayMaps, {
+          position: 'topleft',
+          collapsed: false
+        }).addTo(map);
+
+        // Add scale control
+        L.control.scale({
+          metric: true,
+          imperial: false,
+          position: 'bottomleft'
+        }).addTo(map);
+
+        // Add attribution control
+        map.attributionControl.setPrefix('Datos: ICGC & OpenStreetMap | Visualización: Leaflet');
+        
+        // Add zoom event listener to update municipality circle radius
+        map.on('zoomend', function() {
+          console.log('🔍 Zoom changed to:', map.getZoom(), '- Updating municipality radius');
+          updateMunicipalityRadius();
+        });
+      }
+
+      // Load and display municipality boundaries
+      function loadMunicipalityBoundaries() {
+        fetch('data/municipis-geo.json')
+          .then(response => response.json())
+          .then(data => {
+            municipalitiesData = data;
+            displayMunicipalityBoundaries();
+          })
+          .catch(error => console.error('Error loading municipalities:', error));
+      }
+
+      // Load and display municipality centroids
+      function loadMunicipalityCentroids() {
+        console.log('Loading municipality centroids...');
+        fetch('data/municipis_geo.json')
+          .then(response => {
+            console.log('Centroids fetch response:', response.status);
+            return response.json();
+          })
+          .then(data => {
+            centroidsData = data;
+            console.log('Centroids data loaded:', data.features?.length || 0, 'features');
+            displayMunicipalityCentroids();
+          })
+          .catch(error => console.error('Error loading centroids:', error));
+      }
+
+      // Display municipality boundaries
+      function displayMunicipalityBoundaries() {
+        if (!municipalitiesData) {
+          console.warn('No municipalities data available for display');
+          return;
+        }
+        
+        console.log('Displaying municipality boundaries...', municipalitiesData.features?.length || 0, 'features');
+        
+        // Display municipality boundaries (Comarcas)
+        municipalitiesLayer.clearLayers();
+        municipalityLayers.clear();
+        
+        const geoJSONLayer = L.geoJSON(municipalitiesData, {
+          style: function(feature) {
+            return getFeatureStyle(feature, 'boundary');
+          },
+          onEachFeature: function(feature, layer) {
+            const featureId = getFeatureId(feature, 'boundary');
+            municipalityLayers.set(featureId, layer);
+            
+            setupFeatureInteraction(feature, layer, 'boundary');
+            
+            const props = feature.properties;
+            console.log('🏛️ Processing comarca:', props.nom_comar || props.cap_comar);
+            
+            // Get population data if available
+            let populationText = 'No disponible';
+            
+            if (populationDataComarques && props.nom_comar) {
+              // Try direct match first
+              let population = populationDataComarques[props.nom_comar];
+              
+              // If no direct match, try common name variations for Vall d'Aran
+              if (!population && props.nom_comar === 'Val d\'Aran') {
+                population = populationDataComarques['Aran'];
+                console.log('🔄 Using Aran for Val d\'Aran');
+              }
+              
+              if (population) {
+                populationText = population.toLocaleString() + ' habitantes';
+                console.log(`✅ Population found for comarca "${props.nom_comar}":`, population);
+              } else {
+                console.warn('❌ No population for comarca:', props.nom_comar);
+                console.log('Available comarca names:', Object.keys(populationDataComarques));
+              }
             }
-          }).addTo(municipalitiesLayer);
-        })
-        .catch(error => console.error('Error loading municipalities:', error));
+            
+            layer.bindPopup(`
+              <div style="font-family: Arial, sans-serif; min-width: 200px;">
+                  <h3 style="margin: 0 0 8px 0; color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 4px;">
+                      ${props.nom_comar || 'Información no disponible'}
+                  </h3>
+                  <p style="margin: 4px 0;"><strong>Capital:</strong> ${props.cap_comar || 'No disponible'}</p>
+                  <p style="margin: 4px 0;"><strong>Población:</strong> ${populationText}</p>
+              </div>
+            `);
+          }
+        });
+        
+        // Add to municipalities layer
+        geoJSONLayer.addTo(municipalitiesLayer);
+        console.log('🗺️ Comarcas layer added with', geoJSONLayer.getLayers().length, 'features');
+        
+        // Force the layer to be visible
+        setTimeout(() => {
+          if (municipalitiesLayer && map.hasLayer(municipalitiesLayer)) {
+            console.log('🔍 Comarca layer is on map:', map.hasLayer(municipalitiesLayer));
+            console.log('🔍 Comarca layer bounds:', geoJSONLayer.getBounds());
+          }
+        }, 500);
+      }
 
-      // Load municipality centroids
-      fetch('data/municipis_geo.json')
-        .then(response => response.json())
-        .then(data => {
-          L.geoJSON(data, {
-            pointToLayer: function(feature, latlng) {
-              return L.circleMarker(latlng, {
-                radius: 4,
-                fillColor: "#666666",
-                color: "#333333",
-                weight: 1,
-                opacity: 1,
-                fillOpacity: 0.8
-              });
-            },
-            onEachFeature: function(feature, layer) {
-              const props = feature.properties;
-              layer.bindPopup(`
-                <div style="font-family: Arial, sans-serif; min-width: 200px;">
-                    <h3 style="margin: 0 0 8px 0; color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 4px;">
-                        ${props.nom || 'Información no disponible'}
-                    </h3>
-                    <p style="margin: 4px 0;"><strong>Comarca:</strong> ${props.comarca_nom || 'No disponible'}</p>
-                    <p style="margin: 4px 0;"><strong>Código municipal:</strong> ${props.codi || 'No disponible'}</p>
-                    <p style="margin: 4px 0;"><strong>Código comarca:</strong> ${props.comarca_codi || 'No disponible'}</p>
-                </div>
-              `);
+      // Display municipality centroids
+      function displayMunicipalityCentroids() {
+        if (!centroidsData) {
+          console.warn('No centroids data available for display');
+          return;
+        }
+        
+        console.log('Displaying municipality centroids...', centroidsData.features?.length || 0, 'features');
+        
+        centroidsLayer.clearLayers();
+        centroidLayers.clear();
+        
+        L.geoJSON(centroidsData, {
+          pointToLayer: function(feature, latlng) {
+            const style = getFeatureStyle(feature, 'centroid');
+            const dynamicRadius = getDynamicRadius(); // Dynamic radius based on zoom level
+            
+            const marker = L.circleMarker(latlng, {
+              radius: dynamicRadius,
+              fillColor: style.fillColor,
+              color: style.color,
+              weight: style.weight,
+              opacity: style.opacity,
+              fillOpacity: style.fillOpacity,
+              interactive: true,
+              bubblingMouseEvents: false // Prevent event bubbling to comarca layers
+            });
+            
+            // Ensure municipality dots are always on top by setting proper pane
+            marker.options.pane = 'municipalitiesPane'; // Use the municipalities pane with highest z-index
+            
+            // Store reference to update radius on zoom
+            marker._featureId = getFeatureId(feature, 'centroid');
+            
+            return marker;
+          },
+          onEachFeature: function(feature, layer) {
+            const featureId = getFeatureId(feature, 'centroid');
+            centroidLayers.set(featureId, layer);
+            
+            setupFeatureInteraction(feature, layer, 'centroid');
+            
+            const props = feature.properties;
+            
+            // Get population data if available
+            let populationText = 'No disponible';
+            
+            const municipalityData = findMunicipalityPopulation(props.nom);
+            if (municipalityData && municipalityData.poblacio) {
+              populationText = municipalityData.poblacio.toLocaleString() + ' habitantes';
             }
-          }).addTo(centroidsLayer);
-        })
-        .catch(error => console.error('Error loading centroids:', error));
+            
+            layer.bindPopup(`
+              <div style="font-family: Arial, sans-serif; min-width: 200px;">
+                  <h3 style="margin: 0 0 8px 0; color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 4px;">
+                      ${props.nom || 'Información no disponible'}
+                  </h3>
+                  <p style="margin: 4px 0;"><strong>Comarca:</strong> ${props.comarca_nom || 'No disponible'}</p>
+                  <p style="margin: 4px 0;"><strong>Población:</strong> ${populationText}</p>
+              </div>
+            `);
+          }
+        }).addTo(centroidsLayer);
+        
+        // Force the centroids layer to be on top of all other layers
+        setTimeout(() => {
+          if (centroidsLayer && map.hasLayer(centroidsLayer)) {
+            centroidsLayer.bringToFront();
+          }
+        }, 100);
+      }
 
-      // Add layer control
-      const baseMaps = {
-        "Mapa Base": osm
-      };
+      // Generate unique feature ID
+      function getFeatureId(feature, type) {
+        if (type === 'boundary') {
+          return `boundary_${feature.properties.comarca || feature.properties.nom_comar || Math.random()}`;
+        } else if (type === 'centroid') {
+          return `centroid_${feature.properties.codi || feature.properties.nom || Math.random()}`;
+        }
+        return `feature_${Math.random()}`;
+      }
 
-      const overlayMaps = {
-        "Límites Municipales": municipalitiesLayer,
-        "Centros Municipales": centroidsLayer
-      };
+      // Get feature style based on state
+      function getFeatureStyle(feature, type) {
+        const featureId = getFeatureId(feature, type);
+        
+        // Check if selected
+        if (selectedFeatures.has(featureId)) {
+          return getSelectedStyle(type, feature);
+        }
+        
+        // Check if in existing group
+        const groupStyle = getFeatureGroupStyle(feature, type);
+        if (groupStyle.isGrouped) {
+          return groupStyle;
+        }
+        
+        // Default style
+        return getDefaultStyle(type, feature);
+      }
 
-      L.control.layers(baseMaps, overlayMaps, {
-        position: 'topleft',
-        collapsed: false
-      }).addTo(map);
+      // Names are now corrected in the data file, no normalization needed
 
-      // Add scale control
-      L.control.scale({
-        metric: true,
-        imperial: false,
-        position: 'bottomleft'
-      }).addTo(map);
+      // Find population data for a municipality with smart article handling
+      function findMunicipalityPopulation(municipalityName) {
+        if (!populationDataMunicipis || !municipalityName) {
+          console.warn('🚫 Missing data or name:', !!populationDataMunicipis, municipalityName);
+          return null;
+        }
+        
+        // Direct match first
+        let data = populationDataMunicipis[municipalityName];
+        if (data) {
+          console.log(`✅ Population found for "${municipalityName}":`, data.poblacio);
+          return data;
+        }
+        
+        // Smart article handling for Catalan municipality names
+        const nameVariations = generateNameVariations(municipalityName);
+        
+        for (const variation of nameVariations) {
+          data = populationDataMunicipis[variation];
+          if (data) {
+            console.log(`✅ Population found for "${municipalityName}" using variation "${variation}":`, data.poblacio);
+            return data;
+          }
+        }
+        
+        // Try to find a similar name (for debugging)
+        const availableKeys = Object.keys(populationDataMunicipis);
+        const similarKey = availableKeys.find(key => 
+          key.toLowerCase().includes(municipalityName.toLowerCase()) ||
+          municipalityName.toLowerCase().includes(key.toLowerCase())
+        );
+        
+        if (similarKey) {
+          console.warn(`🔍 Similar name found: "${municipalityName}" → "${similarKey}"`);
+          console.warn(`🔍 Exact match needed. Consider data correction.`);
+        } else {
+          console.warn(`❌ No population data for: "${municipalityName}"`);
+          console.log('🔍 Available population keys (first 10):', availableKeys.slice(0, 10));
+          console.log('🔍 Total population entries:', availableKeys.length);
+        }
+        
+        return null;
+      }
 
-      // Add attribution control
-      map.attributionControl.setPrefix('Datos: ICGC & OpenStreetMap | Visualización: Leaflet');
+      // Generate name variations for Catalan municipalities with articles
+      function generateNameVariations(originalName) {
+        const variations = [originalName];
+        
+        // Handle names with articles at the end: "Aldea, l'" -> "Aldea"
+        if (originalName.includes(', l\'')) {
+          variations.push(originalName.replace(', l\'', ''));
+        }
+        if (originalName.includes(', la ')) {
+          variations.push(originalName.replace(', la ', ''));
+        }
+        if (originalName.includes(', el ')) {
+          variations.push(originalName.replace(', el ', ''));
+        }
+        if (originalName.includes(', els ')) {
+          variations.push(originalName.replace(', els ', ''));
+        }
+        if (originalName.includes(', les ')) {
+          variations.push(originalName.replace(', les ', ''));
+        }
+        
+        // Handle names with articles at the beginning: "l'Aldea" -> "Aldea"
+        if (originalName.startsWith('l\'')) {
+          variations.push(originalName.substring(2));
+        }
+        if (originalName.startsWith('la ')) {
+          variations.push(originalName.substring(3));
+        }
+        if (originalName.startsWith('el ')) {
+          variations.push(originalName.substring(3));
+        }
+        if (originalName.startsWith('els ')) {
+          variations.push(originalName.substring(4));
+        }
+        if (originalName.startsWith('les ')) {
+          variations.push(originalName.substring(4));
+        }
+        
+        // Handle reverse transformation: "Aldea" -> "Aldea, l'"
+        if (!originalName.includes(',') && !originalName.startsWith('l\'') && !originalName.startsWith('la ') && 
+            !originalName.startsWith('el ') && !originalName.startsWith('els ') && !originalName.startsWith('les ')) {
+          variations.push(originalName + ', l\'');
+          variations.push(originalName + ', la');
+          variations.push(originalName + ', el');
+          variations.push(originalName + ', els');
+          variations.push(originalName + ', les');
+          variations.push('l\'' + originalName);
+          variations.push('la ' + originalName);
+          variations.push('el ' + originalName);
+          variations.push('els ' + originalName);
+          variations.push('les ' + originalName);
+        }
+        
+        return [...new Set(variations)]; // Remove duplicates
+      }
+
+      // Simplified municipality points - no overlapping logic needed
+
+      // Get dynamic radius based on zoom level
+      function getDynamicRadius() {
+        if (!map) return 5; // Default radius if map not initialized
+        
+        const zoom = map.getZoom();
+        
+        // Define radius ranges based on zoom level - más grandes para mejor visibilidad
+        if (zoom <= 8) {
+          return 5; // Radius base más grande
+        } else if (zoom <= 10) {
+          return 7; // Mejor para vista regional
+        } else if (zoom <= 12) {
+          return 10; // Mejor para vista local
+        } else if (zoom <= 14) {
+          return 15; // Mucho más grande para vista detallada
+        } else if (zoom <= 16) {
+          return 20; // Muy grande para zoom cercano
+        } else {
+          return 25; // Máximo para zoom muy cercano
+        }
+      }
+
+      // Update all municipality circles radius on zoom
+      function updateMunicipalityRadius() {
+        if (!centroidsLayer) return;
+        
+        const newRadius = getDynamicRadius();
+        
+        centroidsLayer.eachLayer(function(layer) {
+          if (layer.setRadius) {
+            layer.setRadius(newRadius);
+          }
+        });
+      }
+
+      // Get default style
+      function getDefaultStyle(type, feature = null) {
+        if (type === 'boundary') {
+          return {
+            color: "#2c3e50",
+            weight: 2,
+            opacity: 1,
+            fillColor: "transparent", // Transparente como solicitado
+            fillOpacity: 0
+          };
+        } else if (type === 'centroid') {
+          return {
+            radius: getDynamicRadius(), // Dynamic radius based on zoom
+            fillColor: "#666666",
+            color: "#333333",
+            weight: 1,
+            opacity: 1,
+            fillOpacity: 0.9
+          };
+        }
+      }
+
+      // Get selected style
+      function getSelectedStyle(type, feature = null) {
+        if (type === 'boundary') {
+          return {
+            color: currentSelectionColor,
+            weight: 3,
+            opacity: 1,
+            fillColor: currentSelectionColor,
+            fillOpacity: 0.5
+          };
+        } else if (type === 'centroid') {
+          return {
+            radius: getDynamicRadius(), // Dynamic radius based on zoom
+            fillColor: currentSelectionColor,
+            color: currentSelectionColor,
+            weight: 2,
+            opacity: 1,
+            fillOpacity: 0.9
+          };
+        }
+      }
+
+      // Get hover style
+      function getHoverStyle(type, feature = null) {
+        if (type === 'boundary') {
+          return {
+            color: "#e74c3c",
+            weight: 2,
+            opacity: 1,
+            fillColor: "#e74c3c",
+            fillOpacity: 0.3
+          };
+        } else if (type === 'centroid') {
+          return {
+            radius: getDynamicRadius(), // Dynamic radius based on zoom
+            fillColor: "#e74c3c",
+            color: "#e74c3c",
+            weight: 2,
+            opacity: 1,
+            fillOpacity: 0.9
+          };
+        }
+      }
+
+      // Get style for a feature based on groups
+      function getFeatureGroupStyle(feature, type) {
+        for (let [groupId, group] of activeGroups) {
+          if (isFeatureInGroup(feature, group, type)) {
+            let groupStyle = {
+              color: group.color,
+              weight: type === 'boundary' ? 2 : 2,
+              opacity: 0.8,
+              fillColor: group.color,
+              fillOpacity: type === 'boundary' ? 0.4 : 0.8,
+              isGrouped: true
+            };
+            
+            // Dynamic radius for municipality points in groups
+            if (type === 'centroid') {
+              groupStyle.radius = getDynamicRadius(); // Dynamic radius based on zoom
+            }
+            
+            return groupStyle;
+          }
+        }
+
+        return { isGrouped: false };
+      }
+
+      // Check if a feature belongs to a group
+      function isFeatureInGroup(feature, group, type) {
+        if (group.type === 'manual') {
+          // For manual groups, check if the feature ID is in the criteria
+          const featureId = getFeatureId(feature, type);
+          return group.criteria.includes(featureId);
+        }
+        return false;
+      }
+
+      // Setup feature interaction (hover and click)
+      function setupFeatureInteraction(feature, layer, type) {
+        const featureId = getFeatureId(feature, type);
+        
+        layer.on({
+          mouseover: function(e) {
+            if (!isSelectionMode) return;
+            
+            // Municipality dots have priority over comarca boundaries
+            if (type === 'centroid') {
+              // Stop event propagation to prevent comarca hover
+              e.originalEvent && e.originalEvent.stopPropagation();
+            }
+            
+            hoveredLayer = { layer: e.target, type: type };
+            
+            // Apply hover style
+            const hoverStyle = getHoverStyle(type, feature);
+            e.target.setStyle(hoverStyle);
+            
+            // Bring municipality dots to front for better visibility
+            if (type === 'centroid') {
+              e.target.bringToFront();
+            } else if (type === 'boundary') {
+              e.target.bringToFront();
+            }
+          },
+          
+          mouseout: function(e) {
+            if (!isSelectionMode) return;
+            
+            hoveredLayer = null;
+            
+            // Restore original style
+            const originalStyle = getFeatureStyle(feature, type);
+            e.target.setStyle(originalStyle);
+          },
+          
+          click: function(e) {
+            if (!isSelectionMode) return;
+            
+            // Municipality dots have priority over comarca boundaries
+            if (type === 'centroid') {
+              // Stop event propagation to prevent comarca selection
+              e.originalEvent && e.originalEvent.stopPropagation();
+            }
+            
+            // Prevent popup from opening during selection
+            e.target.closePopup();
+            
+            // Toggle selection
+            if (selectedFeatures.has(featureId)) {
+              // Deselect
+              selectedFeatures.delete(featureId);
+            } else {
+              // Select
+              selectedFeatures.add(featureId);
+            }
+            
+            // Update visual
+            const newStyle = getFeatureStyle(feature, type);
+            e.target.setStyle(newStyle);
+            
+            // Update UI
+            updateSelectionUI();
+          }
+        });
+      }
+
+      // Start selection mode
+      function startSelectionMode() {
+        isSelectionMode = true;
+        selectedFeatures.clear();
+        currentSelectionColor = document.getElementById('groupColor').value;
+        
+        // Update UI
+        document.body.classList.add('selection-mode-active');
+        document.getElementById('selectionPanel').classList.add('active');
+        document.getElementById('createGroupBtn').style.display = 'none';
+        
+        // Update cursor
+        document.getElementById('map').style.cursor = 'crosshair';
+        
+        updateSelectionUI();
+      }
+
+      // End selection mode
+      function endSelectionMode() {
+        isSelectionMode = false;
+        selectedFeatures.clear();
+        hoveredLayer = null;
+        
+        // Update UI
+        document.body.classList.remove('selection-mode-active');
+        document.getElementById('selectionPanel').classList.remove('active');
+        document.getElementById('createGroupBtn').style.display = 'inline-block';
+        
+        // Reset cursor
+        document.getElementById('map').style.cursor = '';
+        
+        // Refresh map to remove selection styles
+        refreshMap();
+      }
+
+      // Update selection UI
+      function updateSelectionUI() {
+        const count = selectedFeatures.size;
+        const counter = document.getElementById('selectionCounter');
+        const list = document.getElementById('selectionList');
+        
+        counter.textContent = `${count} seleccionado${count !== 1 ? 's' : ''}`;
+        
+        if (count === 0) {
+          list.innerHTML = '<em style="color: #999;">Ningún elemento seleccionado</em>';
+        } else {
+          let html = '';
+          for (let featureId of selectedFeatures) {
+            const name = getFeatureName(featureId);
+            html += `
+              <div class="selected-item">
+                <span>${name}</span>
+                <span class="remove-selected" onclick="removeSelectedFeature('${featureId}')">✕</span>
+              </div>
+            `;
+          }
+          
+          // Calculate total population of selected items
+          const totalPopulation = calculateGroupPopulation(Array.from(selectedFeatures), 'manual');
+          html += `
+            <div style="border-top: 1px solid #ddd; margin-top: 8px; padding-top: 8px; font-weight: bold; color: #2c3e50;">
+              💥 Población total: ${totalPopulation.toLocaleString()} habitantes
+            </div>
+          `;
+          
+          list.innerHTML = html;
+        }
+      }
+
+      // Get feature name from ID with population
+      function getFeatureName(featureId) {
+        // Look up actual feature data
+        if (featureId.startsWith('boundary_')) {
+          // Find the boundary feature
+          if (municipalitiesData) {
+            for (let feature of municipalitiesData.features) {
+              if (getFeatureId(feature, 'boundary') === featureId) {
+                const comarcaName = feature.properties.nom_comar || feature.properties.cap_comar || 'Desconocida';
+                
+                // Get comarca population
+                let populationText = '';
+                if (populationDataComarques && feature.properties.nom_comar) {
+                  let population = populationDataComarques[feature.properties.nom_comar];
+                  
+                  // Handle Val d'Aran special case
+                  if (!population && feature.properties.nom_comar === 'Val d\'Aran') {
+                    population = populationDataComarques['Aran'];
+                  }
+                  
+                  if (population) {
+                    populationText = ` (${population.toLocaleString()} hab.)`;
+                  }
+                }
+                
+                return `🏛️ ${comarcaName}${populationText}`;
+              }
+            }
+          }
+          return `Comarca: ${featureId.replace('boundary_', '')}`;
+        } else if (featureId.startsWith('centroid_')) {
+          // Find the centroid feature
+          if (centroidsData) {
+            for (let feature of centroidsData.features) {
+              if (getFeatureId(feature, 'centroid') === featureId) {
+                const municipio = feature.properties.nom || 'Municipio Desconocido';
+                const comarca = feature.properties.comarca_nom || 'Comarca Desconocida';
+                
+                // Get municipality population
+                let populationText = '';
+                const municipalityData = findMunicipalityPopulation(feature.properties.nom);
+                if (municipalityData && municipalityData.poblacio) {
+                  populationText = ` (${municipalityData.poblacio.toLocaleString()} hab.)`;
+                }
+                
+                return `🏘️ ${municipio}${populationText}`;
+              }
+            }
+          }
+          return `Municipio: ${featureId.replace('centroid_', '')}`;
+        }
+        return featureId;
+      }
+
+      // Remove selected feature
+      function removeSelectedFeature(featureId) {
+        selectedFeatures.delete(featureId);
+        updateSelectionUI();
+        refreshMap();
+      }
+
+      // Create a new group
+      function createGroup() {
+        // Always start selection mode for mixed selection of municipalities and comarcas
+        startSelectionMode();
+      }
+
+      // Complete group creation (for manual selection)
+      function completeGroup() {
+        if (selectedFeatures.size === 0) {
+          alert('Por favor, selecciona al menos un elemento para crear el grupo.');
+          return;
+        }
+
+        const groupName = document.getElementById('groupNameInput').value || `Grupo ${groupCounter + 1}`;
+        const groupColor = generateRandomColor(); // Color aleatorio distinto para cada grupo
+        const criteria = Array.from(selectedFeatures);
+
+        finishGroupCreation(groupName, 'manual', groupColor, criteria);
+        endSelectionMode();
+      }
+
+      // Cancel group creation
+      function cancelGroupCreation() {
+        endSelectionMode();
+      }
+
+      // Finish group creation (common logic)
+      function finishGroupCreation(name, type, color, criteria) {
+        const group = {
+          id: ++groupCounter,
+          name: name,
+          type: type,
+          color: color,
+          criteria: criteria,
+          population: calculateGroupPopulation(criteria, type)
+        };
+
+        activeGroups.set(group.id, group);
+        updateGroupsList();
+        updateStatistics();
+        refreshMap();
+        
+        // Clear input
+        document.getElementById('groupNameInput').value = '';
+      }
+
+      // Load real population data from multiple sources for maximum coverage
+      function loadPopulationData() {
+        // Load comarca population data from IDESCAT 2024
+        fetch('data/poblacio_comarques_2024.json')
+          .then(response => response.json())
+          .then(data => {
+            populationDataComarques = data.poblacio_comarques_2024;
+            console.log('🏛️ Comarca population data loaded:', Object.keys(populationDataComarques).length, 'comarques');
+            console.log('📝 Sample comarca names:', Object.keys(populationDataComarques).slice(0, 3));
+            // Refresh displays after loading data
+            if (municipalitiesData) displayMunicipalityBoundaries();
+          })
+          .catch(error => console.error('❌ Error loading comarca population data:', error));
+          
+        // Load municipality population data from multiple sources
+        Promise.all([
+          fetch('data/poblacio_municipis_wikipedia_completa.json').then(r => r.json()),
+          fetch('data/poblacio_municipis_2024.json').then(r => r.json())
+        ]).then(([wikipediaData, idesctData]) => {
+          // Combine both datasets, prioritizing Wikipedia (more complete) but fallback to IDESCT
+          populationDataMunicipis = {
+            ...idesctData.poblacio_municipis_2024,  // IDESCAT as base
+            ...wikipediaData.poblacio_municipis_2024  // Wikipedia overwrites (higher priority)
+          };
+          
+          console.log('🎯 Combined municipality population data loaded:');
+          console.log('   📊 Wikipedia entries:', Object.keys(wikipediaData.poblacio_municipis_2024).length);
+          console.log('   📊 IDESCAT entries:', Object.keys(idesctData.poblacio_municipis_2024).length);
+          console.log('   📊 Total combined entries:', Object.keys(populationDataMunicipis).length);
+          console.log('📝 Sample municipality names:', Object.keys(populationDataMunicipis).slice(0, 5));
+          
+          // Test specific municipalities
+          console.log('🧪 Testing specific municipalities:');
+          console.log('   Ametlla de Mar:', populationDataMunicipis['Ametlla de Mar']?.poblacio || 'NOT FOUND');
+          console.log('   Ametlla del Vallès:', populationDataMunicipis['Ametlla del Vallès']?.poblacio || 'NOT FOUND');
+          console.log('   Barcelona:', populationDataMunicipis['Barcelona']?.poblacio || 'NOT FOUND');
+          
+          // Refresh displays after loading data
+          if (centroidsData) displayMunicipalityCentroids();
+        }).catch(error => console.error('❌ Error loading municipality population data:', error));
+      }
+
+      // Calculate population for a group using real data
+      function calculateGroupPopulation(criteria, type) {
+        if (!populationDataComarques && !populationDataMunicipis) {
+          console.warn('Population data not loaded yet');
+          return 0;
+        }
+
+        let totalPopulation = 0;
+        
+        criteria.forEach(featureId => {
+          let population = 0;
+          let municipalityName = null;
+          let comarcaName = null;
+          
+          // Try to get municipality info from centroids (municipality dots)
+          if (centroidsData && centroidsData.features) {
+            const feature = centroidsData.features.find(f => {
+              const fId = getFeatureId(f, 'centroid');
+              return fId === featureId;
+            });
+            
+            if (feature && feature.properties) {
+              municipalityName = feature.properties.nom;
+              comarcaName = feature.properties.comarca_nom;
+            }
+          }
+          
+          // Try to get comarca info from boundaries
+          if (municipalitiesData && municipalitiesData.features && !municipalityName) {
+            const feature = municipalitiesData.features.find(f => {
+              const fId = getFeatureId(f, 'boundary');
+              return fId === featureId;
+            });
+            
+            if (feature && feature.properties) {
+              comarcaName = feature.properties.nom_comar;
+            }
+          }
+          
+          // Look up population data - prioritize municipality data, then comarca data
+          if (municipalityName) {
+            const municipalityData = findMunicipalityPopulation(municipalityName);
+            if (municipalityData && municipalityData.poblacio) {
+              population = municipalityData.poblacio;
+            }
+          }
+          
+          // If no municipality data found, try comarca data
+          if (population === 0 && comarcaName && populationDataComarques && populationDataComarques[comarcaName]) {
+            population = populationDataComarques[comarcaName] || 0;
+          }
+          
+          console.log(`Feature ${featureId}: Municipality=${municipalityName}, Comarca=${comarcaName}, Population=${population}`);
+          
+          totalPopulation += population;
+        });
+        
+        return totalPopulation;
+      }
+
+      // Update groups list display
+      function updateGroupsList() {
+        const groupsList = document.getElementById('groupsList');
+        
+        if (activeGroups.size === 0) {
+          groupsList.innerHTML = `
+            <div style="text-align: center; color: #7f8c8d; font-style: italic; padding: 20px;">
+              No hay grupos creados
+            </div>
+          `;
+          return;
+        }
+
+        let html = '';
+        for (let [groupId, group] of activeGroups) {
+          // Get detailed list of elements in the group
+          const elementsList = getGroupElementsDetails(group.criteria);
+          
+          html += `
+            <div class="group-item">
+              <div class="group-color" style="background-color: ${group.color}"></div>
+              <div class="group-info">
+                <div class="group-name">${group.name}</div>
+                <div class="group-stats">
+                  ${group.criteria.length} elementos • ${group.population.toLocaleString()} hab.
+                </div>
+                <div style="font-size: 11px; color: #666; margin-top: 4px; max-height: 80px; overflow-y: auto;">
+                  ${elementsList}
+                </div>
+              </div>
+              <div class="group-actions">
+                <button class="btn btn-danger btn-small" onclick="removeGroup(${groupId})">
+                  ✕
+                </button>
+              </div>
+            </div>
+          `;
+        }
+        
+        groupsList.innerHTML = html;
+      }
+
+      // Get detailed elements list for a group
+      function getGroupElementsDetails(criteria) {
+        const elements = [];
+        
+        criteria.forEach(featureId => {
+          let elementName = 'Elemento desconocido';
+          let populationText = '';
+          let isComarca = false;
+          
+          // Try to get municipality info from centroids (municipality dots)
+          if (centroidsData && centroidsData.features) {
+            const feature = centroidsData.features.find(f => {
+              const fId = getFeatureId(f, 'centroid');
+              return fId === featureId;
+            });
+            
+            if (feature && feature.properties) {
+              elementName = feature.properties.nom;
+              const municipalityData = findMunicipalityPopulation(feature.properties.nom);
+              if (municipalityData && municipalityData.poblacio) {
+                populationText = ` (${municipalityData.poblacio.toLocaleString()})`;
+              }
+            }
+          }
+          
+          // Try to get comarca info from boundaries
+          if (elementName === 'Elemento desconocido' && municipalitiesData && municipalitiesData.features) {
+            const feature = municipalitiesData.features.find(f => {
+              const fId = getFeatureId(f, 'boundary');
+              return fId === featureId;
+            });
+            
+            if (feature && feature.properties) {
+              elementName = feature.properties.nom_comar;
+              isComarca = true;
+              
+              // Get comarca population
+              if (populationDataComarques && feature.properties.nom_comar) {
+                let population = populationDataComarques[feature.properties.nom_comar];
+                
+                // Handle Val d'Aran special case
+                if (!population && feature.properties.nom_comar === 'Val d\'Aran') {
+                  population = populationDataComarques['Aran'];
+                }
+                
+                if (population) {
+                  populationText = ` (${population.toLocaleString()})`;
+                }
+              }
+            }
+          }
+          
+          const prefix = isComarca ? '🏛️ ' : '🏘️ ';
+          elements.push(`${prefix}${elementName}${populationText}`);
+        });
+        
+        return elements.length > 0 ? elements.join('<br>') : 'Sin elementos válidos';
+      }
+
+      // Remove a group
+      function removeGroup(groupId) {
+        activeGroups.delete(groupId);
+        updateGroupsList();
+        updateStatistics();
+        refreshMap(); // Esto ya incluye drawGroupConnections()
+      }
+
+      // Clear all groups
+      function clearAllGroups() {
+        activeGroups.clear();
+        updateGroupsList();
+        updateStatistics();
+        refreshMap(); // Esto ya incluye drawGroupConnections() que limpiará todas las líneas
+      }
+
+      // Update statistics display
+      function updateStatistics() {
+        const totalGroups = activeGroups.size;
+        let groupedMunicipalities = 0;
+        let totalPopulation = 0;
+
+        for (let [groupId, group] of activeGroups) {
+          groupedMunicipalities += group.criteria.length;
+          totalPopulation += group.population;
+        }
+
+        document.getElementById('totalGroups').textContent = totalGroups;
+        document.getElementById('groupedMunicipalities').textContent = groupedMunicipalities;
+        document.getElementById('totalPopulation').textContent = totalPopulation.toLocaleString();
+      }
+
+      // Refresh map display
+      function refreshMap() {
+        console.log('Refreshing map layers...');
+        displayMunicipalityBoundaries();
+        displayMunicipalityCentroids();
+        drawGroupConnections(); // Dibujar líneas conectoras de grupos
+        
+        // Force centroids to be on top after refresh
+        setTimeout(() => {
+          if (centroidsLayer && map.hasLayer(centroidsLayer)) {
+            centroidsLayer.bringToFront();
+            console.log('Centroids layer brought to front');
+          }
+        }, 200);
+      }
+
+      // Obtener el centro geográfico de una comarca
+      function getComarcaCentroid(comarcaName) {
+        if (!municipalitiesData || !municipalitiesData.features) return null;
+        
+        const comarcaFeature = municipalitiesData.features.find(f => 
+          f.properties.nom_comar === comarcaName
+        );
+        
+        if (!comarcaFeature) return null;
+        
+        // Calcular el centroide de la geometría de la comarca
+        const coords = comarcaFeature.geometry.coordinates;
+        let totalLat = 0, totalLng = 0, pointCount = 0;
+        
+        function processCoordinates(coordArray) {
+          if (Array.isArray(coordArray[0])) {
+            coordArray.forEach(processCoordinates);
+          } else {
+            totalLng += coordArray[0];
+            totalLat += coordArray[1];
+            pointCount++;
+          }
+        }
+        
+        processCoordinates(coords);
+        
+        return pointCount > 0 ? [totalLat / pointCount, totalLng / pointCount] : null;
+      }
+
+      // Obtener la posición de un municipio (desde centroids)
+      function getMunicipalityPosition(municipalityName) {
+        if (!centroidsData || !centroidsData.features) return null;
+        
+        const municipalityFeature = centroidsData.features.find(f => 
+          f.properties.nom === municipalityName
+        );
+        
+        if (!municipalityFeature) return null;
+        
+        const coords = municipalityFeature.geometry.coordinates;
+        return [coords[1], coords[0]]; // Leaflet usa [lat, lng]
+      }
+
+      // Obtener la posición de una entidad (municipio o comarca)
+      function getEntityPosition(featureId) {
+        // Intentar encontrar como municipio primero
+        if (centroidsData && centroidsData.features) {
+          const municipalityFeature = centroidsData.features.find(f => {
+            const fId = getFeatureId(f, 'centroid');
+            return fId === featureId;
+          });
+          
+          if (municipalityFeature) {
+            const coords = municipalityFeature.geometry.coordinates;
+            return [coords[1], coords[0]]; // Leaflet usa [lat, lng]
+          }
+        }
+        
+        // Si no es municipio, intentar como comarca
+        if (municipalitiesData && municipalitiesData.features) {
+          const comarcaFeature = municipalitiesData.features.find(f => {
+            const fId = getFeatureId(f, 'boundary');
+            return fId === featureId;
+          });
+          
+          if (comarcaFeature) {
+            return getComarcaCentroid(comarcaFeature.properties.nom_comar);
+          }
+        }
+        
+        return null;
+      }
+
+      // Calcular el punto medio de un conjunto de posiciones
+      function calculateCenterPoint(positions) {
+        if (positions.length === 0) return null;
+        
+        let totalLat = 0, totalLng = 0;
+        
+        positions.forEach(pos => {
+          totalLat += pos[0];
+          totalLng += pos[1];
+        });
+        
+        return [totalLat / positions.length, totalLng / positions.length];
+      }
+
+      // Dibujar líneas conectoras para todos los grupos activos
+      function drawGroupConnections() {
+        if (!groupLinesLayer) return;
+        
+        // Limpiar líneas existentes
+        groupLinesLayer.clearLayers();
+        
+        // Dibujar líneas para cada grupo
+        for (let [groupId, group] of activeGroups) {
+          drawConnectionsForGroup(group);
+        }
+      }
+
+      // Dibujar líneas conectoras para un grupo específico
+      function drawConnectionsForGroup(group) {
+        if (group.criteria.length <= 1) {
+          // No hay líneas si solo hay un elemento
+          return;
+        }
+        
+        // Obtener posiciones de todas las entidades del grupo
+        const positions = [];
+        group.criteria.forEach(featureId => {
+          const position = getEntityPosition(featureId);
+          if (position) {
+            positions.push(position);
+          }
+        });
+        
+        if (positions.length <= 1) return;
+        
+        // Calcular punto central del grupo
+        const centerPoint = calculateCenterPoint(positions);
+        
+        // Crear líneas desde cada entidad al punto central
+        positions.forEach(position => {
+          const line = L.polyline([position, centerPoint], {
+            color: group.color,
+            weight: 2,
+            opacity: 0.7,
+            dashArray: '5, 5' // Línea discontinua para mejor visibilidad
+          });
+          
+          line.addTo(groupLinesLayer);
+        });
+        
+        // Crear un marcador pequeño en el punto central
+        const centerMarker = L.circleMarker(centerPoint, {
+          radius: 4,
+          fillColor: group.color,
+          color: group.color,
+          weight: 2,
+          opacity: 0.8,
+          fillOpacity: 0.8
+        });
+        
+        centerMarker.addTo(groupLinesLayer);
+      }
+
+      // Toggle layer visibility
+      function toggleLayer(layerName, isVisible) {
+        console.log(`🔄 Toggling layer "${layerName}" to ${isVisible ? 'visible' : 'hidden'}`);
+        
+        if (layerName === 'municipalities') {
+          if (isVisible && !map.hasLayer(municipalitiesLayer)) {
+            map.addLayer(municipalitiesLayer);
+            console.log('✅ Comarcas layer added to map');
+          } else if (!isVisible && map.hasLayer(municipalitiesLayer)) {
+            map.removeLayer(municipalitiesLayer);
+            console.log('❌ Comarcas layer removed from map');
+          }
+        } else if (layerName === 'centroids') {
+          if (isVisible && !map.hasLayer(centroidsLayer)) {
+            map.addLayer(centroidsLayer);
+            console.log('✅ Municipios layer added to map');
+          } else if (!isVisible && map.hasLayer(centroidsLayer)) {
+            map.removeLayer(centroidsLayer);
+            console.log('❌ Municipios layer removed from map');
+          }
+        }
+      }
+
+      // Event listeners
+      document.addEventListener('DOMContentLoaded', function() {
+        console.log('🚀 Initializing application...');
+        
+        initializeMap();
+        console.log('✅ Map initialized');
+        
+        loadMunicipalityBoundaries();
+        console.log('⏳ Loading municipality boundaries...');
+        
+        loadMunicipalityCentroids();
+        console.log('⏳ Loading municipality centroids...');
+        
+        loadPopulationData(); // Load real population data
+        console.log('⏳ Loading population data...');
+        
+        updateStatistics();
+        
+        // Set fixed date in credits
+        document.getElementById('currentDate').textContent = '16 de junio de 2025';
+
+        // Layer toggle events
+        document.getElementById('municipalitiesToggle').addEventListener('change', function(e) {
+          console.log('🏛️ Comarca toggle changed:', e.target.checked);
+          toggleLayer('municipalities', e.target.checked);
+        });
+
+        document.getElementById('centroidsToggle').addEventListener('change', function(e) {
+          console.log('🏘️ Municipality toggle changed:', e.target.checked);
+          toggleLayer('centroids', e.target.checked);
+        });
+        
+        // Test function to verify everything is loaded after 3 seconds
+        setTimeout(() => {
+          console.log('🧪 === COMPREHENSIVE SYSTEM DIAGNOSIS ===');
+          console.log('🗺️ Map initialized:', !!map);
+          console.log('🏛️ Municipalities data loaded:', !!municipalitiesData, municipalitiesData?.features?.length || 0);
+          console.log('🏘️ Centroids data loaded:', !!centroidsData, centroidsData?.features?.length || 0);
+          console.log('📊 Comarca population data:', !!populationDataComarques, Object.keys(populationDataComarques || {}).length);
+          console.log('📊 Municipality population data:', !!populationDataMunicipis, Object.keys(populationDataMunicipis || {}).length);
+          console.log('🔍 Comarca layer on map:', map?.hasLayer(municipalitiesLayer));
+          console.log('🔍 Municipality layer on map:', map?.hasLayer(centroidsLayer));
+          
+          // Specific population tests
+          if (populationDataComarques) {
+            console.log('🔬 COMARCA POPULATION TESTS:');
+            console.log('   Val d\'Aran →', populationDataComarques['Val d\'Aran'], '(should be undefined)');
+            console.log('   Aran →', populationDataComarques['Aran'], '(should be 10545)');
+            console.log('   Alt Camp →', populationDataComarques['Alt Camp'], '(should be 46388)');
+          }
+          
+          if (populationDataMunicipis) {
+            console.log('🔬 MUNICIPALITY POPULATION TESTS:');
+            console.log('   Bràfim →', populationDataMunicipis['Bràfim']?.poblacio, '(should be 355)');
+            console.log('   Barcelona →', populationDataMunicipis['Barcelona']?.poblacio, '(should exist now)');
+            console.log('   Arenys de Mar →', populationDataMunicipis['Arenys de Mar']?.poblacio, '(should exist now)');
+            console.log('   Total municipalities with data:', Object.keys(populationDataMunicipis).length, '(should be ~854)');
+            console.log('   First 5 keys:', Object.keys(populationDataMunicipis).slice(0, 5));
+          }
+          
+          console.log('🧪 === END DIAGNOSIS ===');
+        }, 3000);
+
+        // Group management events
+        document.getElementById('createGroupBtn').addEventListener('click', createGroup);
+        document.getElementById('clearAllGroupsBtn').addEventListener('click', clearAllGroups);
+        document.getElementById('completeGroupBtn').addEventListener('click', completeGroup);
+        document.getElementById('cancelSelectionBtn').addEventListener('click', cancelGroupCreation);
+
+        // Enter key support for group name input
+        document.getElementById('groupNameInput').addEventListener('keypress', function(e) {
+          if (e.key === 'Enter') {
+            createGroup();
+          }
+        });
+      });
     </script>
   </body>
 </html> 
